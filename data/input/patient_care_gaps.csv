@@ -1,0 +1,156 @@
+patient_id,care_gap_code,care_gap_name,care_gap_description,date_care_gap_was_identified,care_gap_due_date,care_gap_status,last_completed_date,recommended_frequency
+PAT-0001,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-03-16,2026-07-15,Overdue,,Annual
+PAT-0001,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-05-24,2026-06-29,Overdue,,Annual
+PAT-0002,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-05-22,2026-07-19,Overdue,,Annual
+PAT-0002,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-05-10,2026-08-26,Open,,Annual
+PAT-0003,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-02-03,2026-07-23,Overdue,,Annual
+PAT-0003,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-05-07,2026-06-19,Closed,2025-08-14,Annual
+PAT-0005,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-03-09,2026-06-17,Overdue,,Annual
+PAT-0005,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-05-06,2026-06-10,Overdue,,Annual
+PAT-0006,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-01-16,2026-08-23,Open,,Annual
+PAT-0006,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-06-17,2026-07-23,Closed,2025-11-01,Annual
+PAT-0006,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-06-05,2026-07-03,Overdue,,Annual
+PAT-0007,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-05-21,2026-07-20,Overdue,,Annual
+PAT-0007,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-03-25,2026-07-05,Overdue,,Annual
+PAT-0007,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-04-20,2026-07-26,Closed,2025-07-13,Annual
+PAT-0009,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-06-30,2026-08-26,Closed,2025-11-21,Annual
+PAT-0009,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-01-14,2026-06-15,Overdue,,Annual
+PAT-0010,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-05-31,2026-06-07,Overdue,,Annual
+PAT-0011,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-04-09,2026-07-07,Overdue,,Annual
+PAT-0013,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-06-21,2026-07-03,Overdue,,Annual
+PAT-0014,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-12,2026-06-11,Closed,2025-11-28,Annual
+PAT-0015,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-17,2026-08-09,Closed,2025-07-18,Annual
+PAT-0015,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-01-29,2026-09-24,Open,,Annual
+PAT-0016,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-01-17,2026-06-07,Overdue,,Annual
+PAT-0016,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-04-30,2026-06-27,Overdue,,Annual
+PAT-0017,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-06-29,2026-09-18,Open,,Annual
+PAT-0017,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-02-27,2026-06-15,Overdue,,Annual
+PAT-0017,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-04-01,2026-08-22,Open,,Annual
+PAT-0018,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-02-27,2026-08-12,Open,,Annual
+PAT-0019,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-06-29,2026-08-31,Closed,2026-02-18,Annual
+PAT-0021,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-12,2026-06-12,Closed,2026-04-03,Annual
+PAT-0021,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-03-14,2026-09-04,Open,,Annual
+PAT-0021,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-01-29,2026-07-04,Overdue,,Annual
+PAT-0023,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-02-11,2026-06-20,Overdue,,Annual
+PAT-0024,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-06-23,2026-06-18,Closed,2025-11-05,Annual
+PAT-0025,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-03-14,2026-06-20,Overdue,,Annual
+PAT-0025,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-02-17,2026-07-24,Closed,2026-01-21,Annual
+PAT-0026,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-04-18,2026-06-04,Closed,2025-10-03,Annual
+PAT-0026,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-04-23,2026-06-03,Closed,2026-03-29,Annual
+PAT-0027,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-03-01,2026-09-13,Open,,Annual
+PAT-0027,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-04-07,2026-09-12,Open,,Annual
+PAT-0028,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-01-21,2026-09-15,Open,,Annual
+PAT-0030,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-04-11,2026-06-04,Overdue,,Annual
+PAT-0031,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-06-14,2026-09-25,Open,,Annual
+PAT-0031,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-04-11,2026-08-18,Open,,Annual
+PAT-0031,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-06-16,2026-06-18,Overdue,,Annual
+PAT-0032,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-06-17,2026-08-16,Closed,2025-07-10,Annual
+PAT-0032,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-04-09,2026-08-26,Open,,Annual
+PAT-0033,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-04-04,2026-06-02,Overdue,,Annual
+PAT-0033,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-05-27,2026-08-13,Closed,2025-09-30,Annual
+PAT-0035,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-03-21,2026-06-04,Overdue,,Annual
+PAT-0035,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-05-20,2026-09-12,Closed,2025-08-31,Annual
+PAT-0035,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-04-01,2026-06-13,Overdue,,Annual
+PAT-0037,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-01-18,2026-09-20,Open,,Annual
+PAT-0037,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-01-26,2026-08-17,Closed,2025-10-09,Annual
+PAT-0038,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-06-08,2026-08-12,Closed,2025-10-08,Annual
+PAT-0038,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-04-21,2026-07-04,Closed,2026-02-06,Annual
+PAT-0039,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-04-06,2026-09-08,Open,,Annual
+PAT-0040,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-05-03,2026-07-28,Closed,2025-11-29,Annual
+PAT-0040,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-03-10,2026-07-01,Closed,2025-12-22,Annual
+PAT-0040,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-04-14,2026-09-13,Open,,Annual
+PAT-0041,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-06-09,2026-09-26,Open,,Annual
+PAT-0042,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-06-28,2026-07-04,Overdue,,Annual
+PAT-0042,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-05-25,2026-08-11,Closed,2025-07-27,Annual
+PAT-0042,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-03-16,2026-06-16,Overdue,,Annual
+PAT-0043,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-06-15,2026-08-08,Closed,2025-08-07,Annual
+PAT-0043,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-02-23,2026-08-11,Open,,Annual
+PAT-0043,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-03-25,2026-09-21,Open,,Annual
+PAT-0045,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-06-12,2026-07-13,Closed,2025-11-23,Annual
+PAT-0045,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-04-15,2026-07-29,Closed,2025-09-17,Annual
+PAT-0047,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-01-20,2026-06-24,Overdue,,Annual
+PAT-0047,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-02-22,2026-06-30,Overdue,,Annual
+PAT-0048,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-02-11,2026-08-22,Closed,2026-01-20,Annual
+PAT-0048,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-05-30,2026-07-27,Closed,2026-03-26,Annual
+PAT-0048,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-06-01,2026-08-07,Open,,Annual
+PAT-0049,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-03-21,2026-07-10,Overdue,,Annual
+PAT-0049,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-06-14,2026-08-29,Open,,Annual
+PAT-0050,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-02-25,2026-08-06,Open,,Annual
+PAT-0052,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-01-26,2026-09-04,Open,,Annual
+PAT-0052,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-02-01,2026-07-15,Closed,2025-08-06,Annual
+PAT-0053,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-02-09,2026-07-13,Closed,2025-08-22,Annual
+PAT-0053,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-02-18,2026-07-20,Overdue,,Annual
+PAT-0053,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-05-19,2026-07-30,Closed,2025-10-30,Annual
+PAT-0055,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-04-11,2026-07-08,Closed,2026-03-24,Annual
+PAT-0056,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-04-09,2026-06-22,Closed,2025-09-01,Annual
+PAT-0057,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-01-20,2026-09-27,Open,,Annual
+PAT-0057,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-30,2026-08-19,Open,,Annual
+PAT-0057,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-05-07,2026-06-19,Overdue,,Annual
+PAT-0058,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-06-18,2026-07-30,Overdue,,Annual
+PAT-0058,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-02-21,2026-07-25,Overdue,,Annual
+PAT-0058,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-02-08,2026-06-09,Closed,2025-08-30,Annual
+PAT-0059,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-06-12,2026-08-28,Closed,2025-07-21,Annual
+PAT-0059,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-05-29,2026-08-24,Open,,Annual
+PAT-0059,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-06-02,2026-06-24,Closed,2025-10-04,Annual
+PAT-0060,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-02-05,2026-08-17,Closed,2025-11-10,Annual
+PAT-0060,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-05-03,2026-07-10,Overdue,,Annual
+PAT-0061,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-05-15,2026-06-08,Overdue,,Annual
+PAT-0061,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-03-28,2026-08-27,Closed,2026-04-03,Annual
+PAT-0062,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-03-05,2026-06-14,Closed,2025-08-26,Annual
+PAT-0062,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-04-12,2026-09-27,Open,,Annual
+PAT-0063,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-06-15,2026-08-31,Open,,Annual
+PAT-0064,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-04-17,2026-08-28,Open,,Annual
+PAT-0065,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-04-22,2026-09-25,Closed,2025-07-09,Annual
+PAT-0065,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-01-15,2026-06-06,Overdue,,Annual
+PAT-0065,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-04-13,2026-06-04,Overdue,,Annual
+PAT-0067,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-04-16,2026-07-06,Overdue,,Annual
+PAT-0067,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-05-26,2026-06-10,Overdue,,Annual
+PAT-0067,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-13,2026-07-07,Overdue,,Annual
+PAT-0068,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-02-05,2026-09-10,Open,,Annual
+PAT-0068,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-04-10,2026-07-20,Overdue,,Annual
+PAT-0069,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-06-21,2026-08-13,Closed,2025-10-01,Annual
+PAT-0070,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-08,2026-09-10,Open,,Annual
+PAT-0070,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-02-19,2026-08-02,Open,,Annual
+PAT-0071,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-07-01,2026-08-31,Open,,Annual
+PAT-0071,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-05-11,2026-07-07,Closed,2026-03-22,Annual
+PAT-0071,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-02-05,2026-06-15,Closed,2026-01-18,Annual
+PAT-0072,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-04-20,2026-06-19,Overdue,,Annual
+PAT-0074,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-05-29,2026-09-06,Open,,Annual
+PAT-0074,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-06-17,2026-07-07,Closed,2026-02-18,Annual
+PAT-0075,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-02-28,2026-09-10,Open,,Annual
+PAT-0076,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-05-06,2026-08-07,Closed,2025-09-08,Annual
+PAT-0078,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-05-11,2026-08-07,Closed,2025-08-06,Annual
+PAT-0078,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-05-15,2026-09-05,Open,,Annual
+PAT-0081,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-06-06,2026-09-24,Closed,2026-02-23,Annual
+PAT-0082,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-06-10,2026-08-11,Open,,Annual
+PAT-0082,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-06-30,2026-07-19,Overdue,,Annual
+PAT-0084,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-05-23,2026-09-13,Closed,2025-11-19,Annual
+PAT-0084,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-01-29,2026-06-07,Overdue,,Annual
+PAT-0085,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-06-13,2026-06-04,Overdue,,Annual
+PAT-0085,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-05-13,2026-09-25,Closed,2025-09-08,Annual
+PAT-0086,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-02-08,2026-08-05,Open,,Annual
+PAT-0086,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-03-25,2026-07-06,Overdue,,Annual
+PAT-0086,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-06-26,2026-07-12,Closed,2026-01-01,Annual
+PAT-0087,CG003,Diabetic Retinopathy Eye Exam,Annual retinal screening for diabetic patients.,2026-06-23,2026-06-13,Overdue,,Annual
+PAT-0087,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-05-04,2026-08-18,Open,,Annual
+PAT-0088,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-04-15,2026-09-03,Closed,2025-11-24,Annual
+PAT-0089,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-06-15,2026-07-16,Overdue,,Annual
+PAT-0089,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-06-05,2026-09-02,Open,,Annual
+PAT-0090,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-04-06,2026-06-23,Overdue,,Annual
+PAT-0090,CG010,Medication Reconciliation Post-Discharge,Reconcile meds after hospital discharge.,2026-05-22,2026-09-03,Open,,Annual
+PAT-0091,CG002,Blood Pressure Uncontrolled (>140/90),Systolic blood pressure is elevated.,2026-03-04,2026-08-03,Closed,2025-12-09,Annual
+PAT-0091,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-06-09,2026-08-23,Closed,2025-10-07,Annual
+PAT-0091,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-05-16,2026-07-19,Overdue,,Annual
+PAT-0092,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-04-17,2026-06-12,Overdue,,Annual
+PAT-0093,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-07,2026-09-27,Open,,Annual
+PAT-0093,CG009,Adult Immunization Status (Flu/Pneumococcal),Routine seasonal or adult vaccinations.,2026-01-24,2026-08-16,Closed,2025-09-21,Annual
+PAT-0094,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-05-03,2026-06-08,Closed,2025-08-23,Annual
+PAT-0094,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-04-25,2026-09-24,Open,,Annual
+PAT-0094,CG006,Statin Therapy for Cardiovascular Disease,Statin prescription for ASCVD or diabetes.,2026-06-27,2026-07-15,Overdue,,Annual
+PAT-0096,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-06-09,2026-07-08,Overdue,,Annual
+PAT-0097,CG005,Breast Cancer Screening (Mammogram),Bi-annual mammogram for eligible patients.,2026-03-28,2026-09-19,Open,,Annual
+PAT-0097,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-03-07,2026-07-04,Overdue,,Annual
+PAT-0098,CG007,Kidney Health Evaluation for Diabetes,Annual urine albumin-to-creatinine ratio test.,2026-04-06,2026-09-02,Closed,2025-12-31,Annual
+PAT-0098,CG001,HbA1c Control Poor (>9.0%),Diabetic patient HbA1c is above recommended target.,2026-02-16,2026-08-22,Open,,Annual
+PAT-0098,CG004,Colorectal Cancer Screening,Routine colorectal cancer screening.,2026-04-02,2026-08-05,Open,,Annual
+PAT-0100,CG008,Annual Routine Physical Exam,Annual wellness visit with Primary Care Provider.,2026-06-10,2026-06-18,Closed,2025-09-13,Annual

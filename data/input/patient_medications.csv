@@ -1,0 +1,250 @@
+patient_id,medication_name,medication_category,prescription_date,refill_date,medication_status,days_supplied,medication_adherence_indicator
+PAT-0001,Tacrolimus,Immunosuppressants,2025-11-28,2026-08-07,Active,30,0.69
+PAT-0002,Atorvastatin,Statins,2026-05-23,2026-06-02,Active,90,0.83
+PAT-0003,Levothyroxine,Thyroid,2026-06-04,2026-07-13,Active,90,0.76
+PAT-0003,Amlodipine,Calcium Channel Blockers,2026-05-30,2026-07-15,Active,30,0.86
+PAT-0004,Amiodarone,Antiarrhythmics,2026-05-05,2026-05-16,Active,90,0.64
+PAT-0004,Lisinopril,ACE Inhibitors,2025-11-22,2026-07-22,Discontinued,30,
+PAT-0004,Omeprazole,Proton Pump Inhibitors,2026-02-18,2026-06-08,Active,30,0.95
+PAT-0004,Warfarin,Anticoagulants,2026-01-31,2026-05-22,Active,30,0.75
+PAT-0005,Apixaban,Anticoagulants,2025-10-27,2026-08-03,Active,30,0.86
+PAT-0006,Apixaban,Anticoagulants,2026-01-14,2026-08-02,Active,90,0.87
+PAT-0006,Warfarin,Anticoagulants,2026-03-15,2026-06-03,Active,90,0.7
+PAT-0007,Oxycodone,Opioids,2026-05-13,2026-08-05,Active,30,0.97
+PAT-0008,Warfarin,Anticoagulants,2025-10-31,2026-06-08,Active,30,0.98
+PAT-0009,Lisinopril,ACE Inhibitors,2026-03-02,2026-07-09,Discontinued,30,
+PAT-0009,Metformin,Antidiabetics,2026-01-30,2026-06-14,Active,30,0.6
+PAT-0009,Amlodipine,Calcium Channel Blockers,2026-05-12,2026-08-02,Active,90,0.65
+PAT-0010,Amiodarone,Antiarrhythmics,2026-06-06,2026-07-31,Discontinued,90,
+PAT-0010,Oxycodone,Opioids,2026-06-10,2026-08-11,Active,30,0.85
+PAT-0010,Lisinopril,ACE Inhibitors,2026-02-18,2026-07-22,Discontinued,90,
+PAT-0011,Tacrolimus,Immunosuppressants,2026-04-03,2026-06-20,Active,30,0.89
+PAT-0011,Insulin Glargine,Insulin,2026-01-13,2026-05-03,Discontinued,30,
+PAT-0011,Metformin,Antidiabetics,2026-02-16,2026-07-22,Active,90,0.95
+PAT-0011,Levothyroxine,Thyroid,2025-11-04,2026-07-14,Active,90,0.74
+PAT-0012,Insulin Glargine,Insulin,2026-06-13,2026-07-29,Discontinued,90,
+PAT-0012,Tacrolimus,Immunosuppressants,2026-01-23,2026-06-17,Active,90,0.96
+PAT-0012,Lisinopril,ACE Inhibitors,2026-03-27,2026-07-10,Active,90,0.6
+PAT-0013,Levothyroxine,Thyroid,2025-12-07,2026-06-02,Active,90,0.71
+PAT-0013,Insulin Glargine,Insulin,2025-11-24,2026-05-03,Active,90,0.78
+PAT-0013,Tacrolimus,Immunosuppressants,2026-03-15,2026-06-07,Discontinued,30,
+PAT-0013,Lisinopril,ACE Inhibitors,2026-05-20,2026-07-06,Active,30,0.93
+PAT-0014,Metformin,Antidiabetics,2025-11-27,2026-07-14,Active,90,0.62
+PAT-0014,Insulin Glargine,Insulin,2026-02-25,2026-07-27,Discontinued,30,
+PAT-0014,Warfarin,Anticoagulants,2025-11-07,2026-05-18,Active,90,0.85
+PAT-0014,Apixaban,Anticoagulants,2025-10-17,2026-06-18,Discontinued,30,
+PAT-0015,Omeprazole,Proton Pump Inhibitors,2026-05-31,2026-06-19,Discontinued,90,
+PAT-0015,Metformin,Antidiabetics,2025-11-06,2026-06-19,Active,30,0.93
+PAT-0016,Omeprazole,Proton Pump Inhibitors,2026-06-19,2026-06-22,Active,30,0.86
+PAT-0016,Insulin Glargine,Insulin,2026-04-24,2026-06-13,Active,30,0.7
+PAT-0016,Oxycodone,Opioids,2026-01-16,2026-07-15,Discontinued,90,
+PAT-0016,Levothyroxine,Thyroid,2026-01-11,2026-05-06,Discontinued,90,
+PAT-0017,Insulin Glargine,Insulin,2026-05-05,2026-05-04,Active,90,0.64
+PAT-0017,Tacrolimus,Immunosuppressants,2026-06-19,2026-07-03,Discontinued,90,
+PAT-0017,Levothyroxine,Thyroid,2026-03-23,2026-08-02,Active,30,0.88
+PAT-0018,Amlodipine,Calcium Channel Blockers,2026-02-10,2026-06-15,Active,90,0.83
+PAT-0018,Metformin,Antidiabetics,2025-12-20,2026-06-29,Active,90,0.94
+PAT-0018,Apixaban,Anticoagulants,2026-03-31,2026-06-10,Active,90,0.92
+PAT-0019,Oxycodone,Opioids,2026-01-07,2026-06-18,Active,90,0.88
+PAT-0019,Amiodarone,Antiarrhythmics,2026-02-14,2026-07-03,Active,30,0.65
+PAT-0019,Levothyroxine,Thyroid,2026-03-26,2026-07-02,Active,30,0.68
+PAT-0020,Amlodipine,Calcium Channel Blockers,2025-10-31,2026-07-28,Active,90,0.8
+PAT-0020,Insulin Glargine,Insulin,2026-06-05,2026-07-23,Active,90,0.63
+PAT-0020,Warfarin,Anticoagulants,2026-02-25,2026-07-27,Discontinued,30,
+PAT-0020,Lisinopril,ACE Inhibitors,2025-10-08,2026-06-24,Discontinued,90,
+PAT-0021,Omeprazole,Proton Pump Inhibitors,2026-06-16,2026-07-13,Active,90,0.88
+PAT-0021,Tacrolimus,Immunosuppressants,2025-11-12,2026-08-02,Active,90,0.92
+PAT-0021,Oxycodone,Opioids,2026-03-23,2026-06-18,Active,30,0.86
+PAT-0021,Lisinopril,ACE Inhibitors,2026-02-16,2026-07-24,Active,30,0.67
+PAT-0022,Amiodarone,Antiarrhythmics,2026-04-01,2026-05-29,Discontinued,90,
+PAT-0022,Levothyroxine,Thyroid,2026-05-17,2026-06-12,Active,90,0.73
+PAT-0022,Oxycodone,Opioids,2026-05-10,2026-07-22,Active,90,0.88
+PAT-0022,Lisinopril,ACE Inhibitors,2026-02-05,2026-05-19,Discontinued,30,
+PAT-0023,Warfarin,Anticoagulants,2026-04-26,2026-07-06,Discontinued,90,
+PAT-0023,Metformin,Antidiabetics,2026-05-01,2026-08-08,Active,30,0.72
+PAT-0023,Lisinopril,ACE Inhibitors,2026-06-25,2026-06-02,Discontinued,30,
+PAT-0023,Amiodarone,Antiarrhythmics,2026-03-09,2026-07-28,Discontinued,30,
+PAT-0024,Omeprazole,Proton Pump Inhibitors,2025-10-25,2026-07-23,Discontinued,90,
+PAT-0024,Lisinopril,ACE Inhibitors,2026-01-07,2026-06-30,Discontinued,90,
+PAT-0024,Tacrolimus,Immunosuppressants,2026-01-19,2026-07-18,Active,90,0.69
+PAT-0025,Amlodipine,Calcium Channel Blockers,2026-05-22,2026-06-30,Discontinued,90,
+PAT-0025,Tacrolimus,Immunosuppressants,2025-10-26,2026-06-03,Active,30,0.69
+PAT-0025,Atorvastatin,Statins,2026-02-05,2026-07-13,Active,90,0.99
+PAT-0026,Oxycodone,Opioids,2025-11-06,2026-07-06,Active,30,0.78
+PAT-0026,Lisinopril,ACE Inhibitors,2026-01-07,2026-05-28,Active,90,0.88
+PAT-0026,Warfarin,Anticoagulants,2025-11-11,2026-07-04,Active,90,0.94
+PAT-0027,Levothyroxine,Thyroid,2026-06-12,2026-07-03,Discontinued,30,
+PAT-0027,Apixaban,Anticoagulants,2025-12-28,2026-05-10,Active,30,0.96
+PAT-0028,Lisinopril,ACE Inhibitors,2026-04-30,2026-06-14,Active,90,0.83
+PAT-0029,Atorvastatin,Statins,2025-12-25,2026-05-18,Discontinued,30,
+PAT-0029,Oxycodone,Opioids,2025-12-02,2026-05-20,Active,90,0.85
+PAT-0030,Apixaban,Anticoagulants,2026-06-07,2026-05-03,Active,30,1.0
+PAT-0030,Levothyroxine,Thyroid,2026-03-19,2026-08-03,Active,30,0.93
+PAT-0030,Metformin,Antidiabetics,2026-03-05,2026-06-30,Active,30,0.71
+PAT-0030,Warfarin,Anticoagulants,2026-04-19,2026-07-26,Active,30,0.64
+PAT-0031,Oxycodone,Opioids,2025-10-18,2026-07-14,Active,90,0.78
+PAT-0032,Apixaban,Anticoagulants,2025-11-24,2026-06-15,Active,90,0.74
+PAT-0032,Omeprazole,Proton Pump Inhibitors,2025-11-12,2026-06-21,Discontinued,30,
+PAT-0032,Amiodarone,Antiarrhythmics,2026-01-23,2026-06-18,Active,90,0.75
+PAT-0032,Metformin,Antidiabetics,2026-04-15,2026-05-16,Discontinued,30,
+PAT-0033,Insulin Glargine,Insulin,2025-10-29,2026-07-14,Active,90,0.94
+PAT-0033,Levothyroxine,Thyroid,2025-12-26,2026-07-28,Active,30,0.92
+PAT-0034,Amlodipine,Calcium Channel Blockers,2026-01-17,2026-05-04,Active,30,0.66
+PAT-0034,Lisinopril,ACE Inhibitors,2026-06-07,2026-05-17,Active,90,0.78
+PAT-0035,Tacrolimus,Immunosuppressants,2026-01-29,2026-07-15,Active,90,0.72
+PAT-0035,Warfarin,Anticoagulants,2026-05-02,2026-08-11,Discontinued,90,
+PAT-0035,Levothyroxine,Thyroid,2026-04-04,2026-07-26,Discontinued,30,
+PAT-0035,Metformin,Antidiabetics,2025-10-19,2026-06-01,Active,30,0.76
+PAT-0036,Apixaban,Anticoagulants,2026-05-05,2026-06-05,Active,90,0.74
+PAT-0036,Amiodarone,Antiarrhythmics,2026-04-18,2026-07-12,Active,30,0.7
+PAT-0037,Oxycodone,Opioids,2025-11-18,2026-05-23,Active,90,0.84
+PAT-0038,Warfarin,Anticoagulants,2026-05-11,2026-06-29,Active,30,0.62
+PAT-0038,Oxycodone,Opioids,2025-11-20,2026-06-16,Active,90,0.75
+PAT-0039,Lisinopril,ACE Inhibitors,2025-12-22,2026-05-21,Active,30,0.87
+PAT-0040,Levothyroxine,Thyroid,2026-01-11,2026-05-05,Active,90,0.66
+PAT-0041,Metformin,Antidiabetics,2026-04-23,2026-07-10,Active,90,0.95
+PAT-0041,Tacrolimus,Immunosuppressants,2026-05-11,2026-05-12,Active,90,0.63
+PAT-0042,Amlodipine,Calcium Channel Blockers,2026-03-10,2026-08-08,Active,30,0.94
+PAT-0043,Levothyroxine,Thyroid,2025-10-12,2026-05-30,Active,30,0.72
+PAT-0044,Tacrolimus,Immunosuppressants,2026-01-13,2026-07-25,Active,90,0.82
+PAT-0045,Lisinopril,ACE Inhibitors,2026-01-01,2026-05-04,Active,90,0.71
+PAT-0045,Warfarin,Anticoagulants,2025-12-26,2026-06-17,Discontinued,90,
+PAT-0045,Metformin,Antidiabetics,2025-12-17,2026-06-29,Active,90,0.88
+PAT-0045,Omeprazole,Proton Pump Inhibitors,2025-12-26,2026-06-06,Active,30,0.89
+PAT-0046,Apixaban,Anticoagulants,2025-12-07,2026-06-26,Active,30,0.66
+PAT-0047,Amlodipine,Calcium Channel Blockers,2026-05-05,2026-08-08,Active,90,0.81
+PAT-0047,Levothyroxine,Thyroid,2026-05-03,2026-07-09,Active,90,0.69
+PAT-0047,Lisinopril,ACE Inhibitors,2026-02-06,2026-05-15,Discontinued,30,
+PAT-0047,Metformin,Antidiabetics,2026-05-01,2026-07-25,Active,90,0.67
+PAT-0048,Tacrolimus,Immunosuppressants,2026-05-30,2026-07-03,Discontinued,90,
+PAT-0048,Apixaban,Anticoagulants,2025-10-06,2026-06-20,Discontinued,30,
+PAT-0049,Insulin Glargine,Insulin,2026-05-16,2026-06-08,Active,30,0.67
+PAT-0049,Levothyroxine,Thyroid,2026-01-11,2026-05-31,Active,30,0.63
+PAT-0049,Lisinopril,ACE Inhibitors,2026-02-17,2026-05-20,Active,90,0.85
+PAT-0050,Omeprazole,Proton Pump Inhibitors,2026-04-27,2026-05-06,Active,30,0.73
+PAT-0050,Amlodipine,Calcium Channel Blockers,2025-11-06,2026-07-27,Active,90,0.7
+PAT-0050,Atorvastatin,Statins,2026-05-14,2026-08-05,Active,90,0.95
+PAT-0051,Warfarin,Anticoagulants,2026-02-08,2026-06-09,Discontinued,90,
+PAT-0052,Tacrolimus,Immunosuppressants,2026-05-03,2026-07-26,Active,90,0.75
+PAT-0052,Levothyroxine,Thyroid,2026-01-10,2026-06-01,Active,30,0.68
+PAT-0052,Omeprazole,Proton Pump Inhibitors,2025-10-15,2026-06-21,Active,30,0.62
+PAT-0053,Omeprazole,Proton Pump Inhibitors,2025-11-02,2026-07-09,Active,30,0.83
+PAT-0053,Levothyroxine,Thyroid,2026-04-06,2026-06-05,Discontinued,30,
+PAT-0053,Warfarin,Anticoagulants,2026-02-28,2026-08-07,Active,30,0.61
+PAT-0054,Lisinopril,ACE Inhibitors,2026-03-18,2026-05-15,Discontinued,90,
+PAT-0054,Omeprazole,Proton Pump Inhibitors,2025-10-30,2026-06-28,Active,90,0.65
+PAT-0055,Insulin Glargine,Insulin,2026-03-02,2026-07-11,Active,30,0.86
+PAT-0055,Apixaban,Anticoagulants,2026-06-06,2026-07-30,Discontinued,90,
+PAT-0055,Tacrolimus,Immunosuppressants,2025-11-03,2026-07-30,Active,30,0.99
+PAT-0056,Omeprazole,Proton Pump Inhibitors,2026-06-13,2026-08-10,Active,30,0.97
+PAT-0056,Lisinopril,ACE Inhibitors,2026-01-12,2026-07-06,Discontinued,90,
+PAT-0057,Atorvastatin,Statins,2025-12-09,2026-05-18,Active,30,0.99
+PAT-0057,Amiodarone,Antiarrhythmics,2025-10-31,2026-07-01,Active,30,0.7
+PAT-0057,Amlodipine,Calcium Channel Blockers,2026-03-04,2026-06-15,Active,90,0.72
+PAT-0057,Apixaban,Anticoagulants,2026-06-27,2026-07-09,Active,30,0.62
+PAT-0058,Levothyroxine,Thyroid,2026-05-22,2026-06-05,Discontinued,90,
+PAT-0058,Tacrolimus,Immunosuppressants,2026-05-24,2026-05-31,Active,30,0.93
+PAT-0059,Amiodarone,Antiarrhythmics,2026-06-02,2026-08-03,Discontinued,30,
+PAT-0060,Amiodarone,Antiarrhythmics,2025-11-09,2026-06-28,Active,90,0.68
+PAT-0060,Atorvastatin,Statins,2026-05-06,2026-08-07,Discontinued,30,
+PAT-0060,Metformin,Antidiabetics,2026-03-01,2026-07-16,Active,30,0.84
+PAT-0060,Tacrolimus,Immunosuppressants,2025-11-16,2026-05-27,Active,30,0.9
+PAT-0061,Amiodarone,Antiarrhythmics,2025-12-19,2026-05-03,Active,90,0.76
+PAT-0061,Oxycodone,Opioids,2026-01-30,2026-06-24,Active,90,0.7
+PAT-0061,Warfarin,Anticoagulants,2026-03-09,2026-07-04,Active,90,0.97
+PAT-0061,Amlodipine,Calcium Channel Blockers,2025-12-03,2026-06-19,Active,90,0.7
+PAT-0062,Omeprazole,Proton Pump Inhibitors,2025-10-30,2026-07-11,Active,90,0.97
+PAT-0063,Lisinopril,ACE Inhibitors,2026-03-07,2026-06-24,Active,90,0.82
+PAT-0063,Insulin Glargine,Insulin,2026-01-11,2026-07-10,Discontinued,90,
+PAT-0063,Metformin,Antidiabetics,2025-11-09,2026-07-21,Active,30,0.66
+PAT-0063,Amlodipine,Calcium Channel Blockers,2025-10-25,2026-07-19,Active,30,0.94
+PAT-0064,Levothyroxine,Thyroid,2025-12-04,2026-08-10,Active,90,0.81
+PAT-0064,Oxycodone,Opioids,2026-02-06,2026-08-09,Discontinued,30,
+PAT-0064,Warfarin,Anticoagulants,2026-05-09,2026-07-30,Active,30,0.68
+PAT-0064,Tacrolimus,Immunosuppressants,2025-10-06,2026-07-10,Active,90,0.92
+PAT-0065,Oxycodone,Opioids,2025-11-22,2026-05-21,Active,30,0.96
+PAT-0066,Levothyroxine,Thyroid,2026-04-22,2026-05-15,Active,90,0.62
+PAT-0066,Amiodarone,Antiarrhythmics,2025-11-21,2026-07-13,Active,90,0.84
+PAT-0066,Amlodipine,Calcium Channel Blockers,2025-12-11,2026-05-04,Active,30,0.85
+PAT-0066,Atorvastatin,Statins,2025-11-14,2026-06-10,Active,90,0.82
+PAT-0067,Oxycodone,Opioids,2026-05-11,2026-07-26,Active,30,0.77
+PAT-0067,Amlodipine,Calcium Channel Blockers,2025-10-13,2026-06-20,Active,30,0.64
+PAT-0067,Lisinopril,ACE Inhibitors,2026-05-16,2026-05-27,Active,90,0.6
+PAT-0068,Lisinopril,ACE Inhibitors,2025-12-12,2026-06-30,Discontinued,90,
+PAT-0068,Warfarin,Anticoagulants,2025-11-19,2026-06-30,Discontinued,30,
+PAT-0069,Omeprazole,Proton Pump Inhibitors,2026-05-28,2026-06-20,Discontinued,30,
+PAT-0069,Metformin,Antidiabetics,2026-01-28,2026-07-12,Active,30,0.89
+PAT-0069,Oxycodone,Opioids,2025-12-21,2026-08-02,Discontinued,90,
+PAT-0069,Lisinopril,ACE Inhibitors,2025-12-09,2026-06-04,Discontinued,30,
+PAT-0070,Oxycodone,Opioids,2025-12-14,2026-06-13,Active,90,1.0
+PAT-0070,Amlodipine,Calcium Channel Blockers,2025-10-28,2026-07-29,Active,90,0.97
+PAT-0071,Levothyroxine,Thyroid,2026-02-28,2026-06-06,Active,30,0.73
+PAT-0071,Apixaban,Anticoagulants,2025-11-26,2026-06-13,Active,90,0.85
+PAT-0071,Insulin Glargine,Insulin,2026-03-29,2026-05-22,Discontinued,90,
+PAT-0072,Tacrolimus,Immunosuppressants,2025-11-10,2026-05-24,Active,90,0.97
+PAT-0072,Apixaban,Anticoagulants,2026-05-20,2026-05-17,Active,90,0.65
+PAT-0072,Amlodipine,Calcium Channel Blockers,2026-01-27,2026-07-28,Active,90,0.88
+PAT-0072,Omeprazole,Proton Pump Inhibitors,2025-10-14,2026-06-23,Discontinued,30,
+PAT-0073,Atorvastatin,Statins,2025-11-17,2026-06-10,Active,30,0.83
+PAT-0073,Levothyroxine,Thyroid,2026-03-12,2026-07-05,Active,90,0.69
+PAT-0073,Oxycodone,Opioids,2026-02-05,2026-07-21,Discontinued,90,
+PAT-0073,Omeprazole,Proton Pump Inhibitors,2025-10-14,2026-07-28,Active,90,0.91
+PAT-0074,Metformin,Antidiabetics,2026-01-04,2026-05-13,Discontinued,30,
+PAT-0074,Tacrolimus,Immunosuppressants,2026-04-22,2026-05-03,Active,30,0.92
+PAT-0075,Atorvastatin,Statins,2025-12-08,2026-06-07,Active,90,0.78
+PAT-0075,Oxycodone,Opioids,2025-10-26,2026-07-01,Active,30,0.89
+PAT-0075,Apixaban,Anticoagulants,2025-11-10,2026-05-22,Active,30,0.92
+PAT-0075,Tacrolimus,Immunosuppressants,2025-12-11,2026-07-15,Discontinued,30,
+PAT-0076,Omeprazole,Proton Pump Inhibitors,2026-01-29,2026-07-22,Active,30,0.86
+PAT-0076,Insulin Glargine,Insulin,2026-02-24,2026-08-01,Active,30,0.62
+PAT-0077,Apixaban,Anticoagulants,2026-01-23,2026-06-25,Active,30,0.75
+PAT-0078,Apixaban,Anticoagulants,2026-04-22,2026-05-07,Active,90,0.74
+PAT-0078,Omeprazole,Proton Pump Inhibitors,2025-11-25,2026-07-02,Active,30,0.71
+PAT-0079,Amlodipine,Calcium Channel Blockers,2026-01-21,2026-07-26,Discontinued,90,
+PAT-0080,Atorvastatin,Statins,2026-04-15,2026-07-07,Active,90,0.63
+PAT-0080,Omeprazole,Proton Pump Inhibitors,2026-03-20,2026-07-23,Active,90,0.83
+PAT-0080,Apixaban,Anticoagulants,2026-05-30,2026-07-03,Discontinued,30,
+PAT-0080,Amiodarone,Antiarrhythmics,2026-06-03,2026-07-11,Active,90,0.65
+PAT-0081,Warfarin,Anticoagulants,2026-01-12,2026-06-18,Active,30,0.71
+PAT-0082,Insulin Glargine,Insulin,2025-11-30,2026-07-14,Active,30,0.77
+PAT-0082,Warfarin,Anticoagulants,2026-01-20,2026-07-08,Active,90,0.65
+PAT-0083,Insulin Glargine,Insulin,2025-12-05,2026-08-08,Active,90,0.85
+PAT-0083,Warfarin,Anticoagulants,2026-06-28,2026-06-30,Active,90,0.94
+PAT-0084,Apixaban,Anticoagulants,2025-11-22,2026-05-19,Active,30,0.72
+PAT-0084,Tacrolimus,Immunosuppressants,2026-01-22,2026-06-22,Active,90,0.78
+PAT-0084,Levothyroxine,Thyroid,2026-03-05,2026-08-02,Active,30,0.91
+PAT-0084,Warfarin,Anticoagulants,2026-05-08,2026-07-23,Active,30,0.78
+PAT-0085,Warfarin,Anticoagulants,2025-11-13,2026-06-01,Active,30,0.78
+PAT-0085,Atorvastatin,Statins,2026-04-22,2026-07-27,Active,30,0.93
+PAT-0086,Oxycodone,Opioids,2026-04-05,2026-06-27,Active,30,0.71
+PAT-0086,Warfarin,Anticoagulants,2025-11-16,2026-07-23,Active,30,0.86
+PAT-0086,Atorvastatin,Statins,2025-10-20,2026-06-20,Discontinued,30,
+PAT-0086,Tacrolimus,Immunosuppressants,2026-05-19,2026-07-07,Discontinued,30,
+PAT-0087,Lisinopril,ACE Inhibitors,2026-06-04,2026-05-06,Active,90,0.74
+PAT-0087,Amiodarone,Antiarrhythmics,2026-04-05,2026-07-20,Active,90,0.92
+PAT-0088,Warfarin,Anticoagulants,2026-04-21,2026-05-04,Active,90,0.98
+PAT-0088,Omeprazole,Proton Pump Inhibitors,2025-12-23,2026-05-13,Discontinued,30,
+PAT-0088,Insulin Glargine,Insulin,2026-01-11,2026-07-04,Active,30,0.99
+PAT-0089,Levothyroxine,Thyroid,2026-05-10,2026-06-09,Active,90,0.9
+PAT-0089,Tacrolimus,Immunosuppressants,2026-03-03,2026-06-28,Active,30,0.85
+PAT-0090,Oxycodone,Opioids,2026-03-09,2026-07-22,Discontinued,30,
+PAT-0091,Metformin,Antidiabetics,2026-02-17,2026-05-19,Active,90,0.7
+PAT-0091,Omeprazole,Proton Pump Inhibitors,2026-06-07,2026-06-22,Discontinued,30,
+PAT-0091,Atorvastatin,Statins,2026-06-05,2026-06-26,Active,90,0.64
+PAT-0092,Insulin Glargine,Insulin,2026-05-14,2026-08-01,Active,90,0.99
+PAT-0093,Warfarin,Anticoagulants,2026-05-23,2026-05-16,Discontinued,30,
+PAT-0093,Atorvastatin,Statins,2026-04-18,2026-05-27,Active,90,0.96
+PAT-0094,Lisinopril,ACE Inhibitors,2026-01-07,2026-06-20,Active,90,0.86
+PAT-0095,Lisinopril,ACE Inhibitors,2026-05-18,2026-07-18,Discontinued,30,
+PAT-0095,Atorvastatin,Statins,2025-12-06,2026-05-09,Discontinued,90,
+PAT-0095,Tacrolimus,Immunosuppressants,2026-06-04,2026-06-07,Active,30,0.72
+PAT-0096,Levothyroxine,Thyroid,2026-06-17,2026-07-12,Active,90,0.84
+PAT-0097,Levothyroxine,Thyroid,2026-06-28,2026-06-12,Active,30,0.84
+PAT-0098,Amiodarone,Antiarrhythmics,2026-02-08,2026-07-04,Active,90,0.63
+PAT-0098,Levothyroxine,Thyroid,2026-02-11,2026-05-22,Active,90,0.7
+PAT-0098,Tacrolimus,Immunosuppressants,2026-01-31,2026-07-18,Active,30,0.96
+PAT-0099,Levothyroxine,Thyroid,2026-05-18,2026-07-14,Active,30,0.9
+PAT-0099,Amlodipine,Calcium Channel Blockers,2026-01-26,2026-06-19,Active,90,0.7
+PAT-0100,Insulin Glargine,Insulin,2026-01-08,2026-06-20,Discontinued,30,
+PAT-0100,Metformin,Antidiabetics,2026-01-22,2026-05-12,Active,30,0.8
+PAT-9999,Insulin,Insulin,2026-01-01,2026-02-01,Active,30,0.8

@@ -1,0 +1,11 @@
+care_gap_code,care_gap_name,clinical_priority,care_gap_weight,revenue_or_quality_impact,max_recommended_scheduling_timeframe_months
+CG001,HbA1c Control Poor (>9.0%),High,25.0,High,1
+CG002,Blood Pressure Uncontrolled (>140/90),High,20.0,High,1
+CG003,Diabetic Retinopathy Eye Exam,Medium,15.0,Medium,2
+CG004,Colorectal Cancer Screening,Medium,12.0,High,2
+CG005,Breast Cancer Screening (Mammogram),Medium,10.0,Medium,2
+CG006,Statin Therapy for Cardiovascular Disease,High,18.0,High,1
+CG007,Kidney Health Evaluation for Diabetes,Medium,12.0,Medium,2
+CG008,Annual Routine Physical Exam,Low,5.0,Low,3
+CG009,Adult Immunization Status (Flu/Pneumococcal),Low,5.0,Low,3
+CG010,Medication Reconciliation Post-Discharge,High,22.0,High,1

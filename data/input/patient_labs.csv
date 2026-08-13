@@ -1,0 +1,205 @@
+patient_id,laboratory_test_name,result_value,units,reference_range,abnormal_result_indicator,test_date,result_status
+PAT-0001,Fasting Blood Glucose,105.0,mg/dL,70 - 99,N,2026-02-11,Final
+PAT-0001,HbA1c,9.6,%,4.0 - 5.6,Y,2026-04-11,Final
+PAT-0001,LDL Cholesterol,126.0,mg/dL,< 100,N,2026-04-04,Final
+PAT-0002,HbA1c,6.5,%,4.0 - 5.6,N,2026-05-14,Final
+PAT-0002,Fasting Blood Glucose,90.0,mg/dL,70 - 99,N,2026-05-29,Final
+PAT-0002,LDL Cholesterol,95.0,mg/dL,< 100,N,2026-04-21,Final
+PAT-0003,eGFR Kidney Function,63.0,mL/min/1.73m2,> 60,N,2026-06-22,Final
+PAT-0003,Blood Pressure Systolic,141.0,mmHg,90 - 120,Y,2026-03-06,Final
+PAT-0004,Fasting Blood Glucose,179.0,mg/dL,70 - 99,Y,2026-03-14,Final
+PAT-0005,Blood Pressure Systolic,164.0,mmHg,90 - 120,Critical,2026-06-03,Final
+PAT-0005,LDL Cholesterol,208.0,mg/dL,< 100,Y,2026-06-06,Final
+PAT-0005,eGFR Kidney Function,69.0,mL/min/1.73m2,> 60,N,2026-04-16,Final
+PAT-0006,eGFR Kidney Function,42.0,mL/min/1.73m2,> 60,Critical,2026-07-03,Final
+PAT-0006,Blood Pressure Systolic,165.0,mmHg,90 - 120,Critical,2026-04-28,Final
+PAT-0007,Blood Pressure Systolic,162.0,mmHg,90 - 120,Critical,2026-03-25,Final
+PAT-0008,Blood Pressure Systolic,118.0,mmHg,90 - 120,N,2026-02-25,Final
+PAT-0009,HbA1c,7.4,%,4.0 - 5.6,Y,2026-06-17,Final
+PAT-0009,Blood Pressure Systolic,166.0,mmHg,90 - 120,Critical,2026-03-10,Final
+PAT-0010,HbA1c,11.1,%,4.0 - 5.6,Y,2026-06-19,Final
+PAT-0010,Fasting Blood Glucose,149.0,mg/dL,70 - 99,Y,2026-07-18,Final
+PAT-0010,eGFR Kidney Function,77.0,mL/min/1.73m2,> 60,N,2026-02-28,Final
+PAT-0011,Blood Pressure Systolic,113.0,mmHg,90 - 120,N,2026-02-09,Final
+PAT-0012,Blood Pressure Systolic,118.0,mmHg,90 - 120,N,2026-02-07,Final
+PAT-0012,LDL Cholesterol,154.0,mg/dL,< 100,Y,2026-02-18,Final
+PAT-0012,Fasting Blood Glucose,120.0,mg/dL,70 - 99,N,2026-02-08,Final
+PAT-0013,LDL Cholesterol,127.0,mg/dL,< 100,N,2026-06-07,Final
+PAT-0014,eGFR Kidney Function,61.0,mL/min/1.73m2,> 60,N,2026-02-14,Final
+PAT-0014,Fasting Blood Glucose,115.0,mg/dL,70 - 99,N,2026-03-16,Final
+PAT-0014,Blood Pressure Systolic,172.0,mmHg,90 - 120,Critical,2026-02-17,Final
+PAT-0015,Fasting Blood Glucose,189.0,mg/dL,70 - 99,Y,2026-03-02,Final
+PAT-0015,HbA1c,7.5,%,4.0 - 5.6,Y,2026-07-26,Final
+PAT-0016,LDL Cholesterol,190.0,mg/dL,< 100,Y,2026-07-23,Final
+PAT-0016,HbA1c,9.9,%,4.0 - 5.6,Y,2026-07-14,Final
+PAT-0017,Fasting Blood Glucose,181.0,mg/dL,70 - 99,Y,2026-03-05,Final
+PAT-0017,HbA1c,10.1,%,4.0 - 5.6,Y,2026-04-30,Final
+PAT-0018,LDL Cholesterol,72.0,mg/dL,< 100,N,2026-03-17,Final
+PAT-0018,Fasting Blood Glucose,104.0,mg/dL,70 - 99,N,2026-07-06,Final
+PAT-0019,eGFR Kidney Function,66.0,mL/min/1.73m2,> 60,N,2026-07-02,Final
+PAT-0019,LDL Cholesterol,119.0,mg/dL,< 100,N,2026-05-13,Final
+PAT-0019,Fasting Blood Glucose,109.0,mg/dL,70 - 99,N,2026-04-26,Final
+PAT-0020,Fasting Blood Glucose,119.0,mg/dL,70 - 99,N,2026-03-04,Final
+PAT-0020,eGFR Kidney Function,37.0,mL/min/1.73m2,> 60,Critical,2026-02-21,Final
+PAT-0021,Fasting Blood Glucose,136.0,mg/dL,70 - 99,Y,2026-06-26,Final
+PAT-0021,LDL Cholesterol,189.0,mg/dL,< 100,Y,2026-05-11,Final
+PAT-0022,HbA1c,6.6,%,4.0 - 5.6,Y,2026-06-28,Final
+PAT-0022,LDL Cholesterol,173.0,mg/dL,< 100,Y,2026-03-18,Final
+PAT-0023,Blood Pressure Systolic,147.0,mmHg,90 - 120,Y,2026-03-19,Final
+PAT-0023,eGFR Kidney Function,64.0,mL/min/1.73m2,> 60,N,2026-04-12,Final
+PAT-0023,LDL Cholesterol,193.0,mg/dL,< 100,Y,2026-03-29,Final
+PAT-0024,HbA1c,9.8,%,4.0 - 5.6,Y,2026-04-21,Final
+PAT-0024,LDL Cholesterol,168.0,mg/dL,< 100,Y,2026-02-08,Final
+PAT-0025,HbA1c,9.5,%,4.0 - 5.6,Y,2026-07-20,Final
+PAT-0025,eGFR Kidney Function,35.0,mL/min/1.73m2,> 60,Critical,2026-05-05,Final
+PAT-0025,Fasting Blood Glucose,181.0,mg/dL,70 - 99,Y,2026-07-13,Final
+PAT-0026,Blood Pressure Systolic,158.0,mmHg,90 - 120,Y,2026-03-03,Final
+PAT-0027,eGFR Kidney Function,55.0,mL/min/1.73m2,> 60,Y,2026-06-24,Final
+PAT-0027,Blood Pressure Systolic,179.0,mmHg,90 - 120,Critical,2026-04-25,Final
+PAT-0028,LDL Cholesterol,129.0,mg/dL,< 100,N,2026-03-29,Final
+PAT-0028,HbA1c,5.2,%,4.0 - 5.6,N,2026-03-06,Final
+PAT-0028,Fasting Blood Glucose,121.0,mg/dL,70 - 99,N,2026-02-21,Final
+PAT-0029,HbA1c,6.4,%,4.0 - 5.6,N,2026-04-05,Final
+PAT-0029,LDL Cholesterol,130.0,mg/dL,< 100,Y,2026-04-26,Final
+PAT-0030,Blood Pressure Systolic,111.0,mmHg,90 - 120,N,2026-04-27,Final
+PAT-0031,HbA1c,11.5,%,4.0 - 5.6,Y,2026-04-16,Final
+PAT-0032,HbA1c,5.6,%,4.0 - 5.6,N,2026-07-03,Final
+PAT-0033,Fasting Blood Glucose,198.0,mg/dL,70 - 99,Y,2026-02-09,Final
+PAT-0033,HbA1c,10.4,%,4.0 - 5.6,Y,2026-05-20,Final
+PAT-0033,LDL Cholesterol,77.0,mg/dL,< 100,N,2026-06-11,Final
+PAT-0034,eGFR Kidney Function,83.0,mL/min/1.73m2,> 60,N,2026-05-19,Final
+PAT-0034,Fasting Blood Glucose,107.0,mg/dL,70 - 99,N,2026-03-18,Final
+PAT-0035,HbA1c,8.0,%,4.0 - 5.6,Y,2026-07-08,Final
+PAT-0035,eGFR Kidney Function,70.0,mL/min/1.73m2,> 60,N,2026-03-02,Final
+PAT-0035,Fasting Blood Glucose,134.0,mg/dL,70 - 99,Y,2026-03-03,Final
+PAT-0036,Fasting Blood Glucose,99.0,mg/dL,70 - 99,N,2026-02-10,Final
+PAT-0037,Fasting Blood Glucose,119.0,mg/dL,70 - 99,N,2026-03-31,Final
+PAT-0037,HbA1c,7.9,%,4.0 - 5.6,Y,2026-07-13,Final
+PAT-0038,eGFR Kidney Function,73.0,mL/min/1.73m2,> 60,N,2026-02-04,Final
+PAT-0038,Fasting Blood Glucose,156.0,mg/dL,70 - 99,Y,2026-07-14,Final
+PAT-0039,Fasting Blood Glucose,165.0,mg/dL,70 - 99,Y,2026-04-10,Final
+PAT-0039,HbA1c,8.3,%,4.0 - 5.6,Y,2026-07-23,Final
+PAT-0039,LDL Cholesterol,162.0,mg/dL,< 100,Y,2026-05-09,Final
+PAT-0040,Fasting Blood Glucose,183.0,mg/dL,70 - 99,Y,2026-06-15,Final
+PAT-0041,LDL Cholesterol,185.0,mg/dL,< 100,Y,2026-03-18,Final
+PAT-0042,LDL Cholesterol,79.0,mg/dL,< 100,N,2026-05-15,Final
+PAT-0042,Blood Pressure Systolic,170.0,mmHg,90 - 120,Critical,2026-06-22,Final
+PAT-0042,HbA1c,9.9,%,4.0 - 5.6,Y,2026-03-29,Final
+PAT-0043,Fasting Blood Glucose,125.0,mg/dL,70 - 99,N,2026-05-27,Final
+PAT-0044,Blood Pressure Systolic,171.0,mmHg,90 - 120,Critical,2026-02-16,Final
+PAT-0044,eGFR Kidney Function,53.0,mL/min/1.73m2,> 60,Y,2026-06-23,Final
+PAT-0044,LDL Cholesterol,86.0,mg/dL,< 100,N,2026-04-01,Final
+PAT-0045,eGFR Kidney Function,53.0,mL/min/1.73m2,> 60,Y,2026-03-10,Final
+PAT-0046,eGFR Kidney Function,38.0,mL/min/1.73m2,> 60,Critical,2026-05-28,Final
+PAT-0046,HbA1c,10.1,%,4.0 - 5.6,Y,2026-04-25,Final
+PAT-0046,Fasting Blood Glucose,126.0,mg/dL,70 - 99,Y,2026-04-20,Final
+PAT-0047,eGFR Kidney Function,70.0,mL/min/1.73m2,> 60,N,2026-02-07,Final
+PAT-0047,HbA1c,7.3,%,4.0 - 5.6,Y,2026-07-11,Final
+PAT-0047,LDL Cholesterol,210.0,mg/dL,< 100,Y,2026-03-11,Final
+PAT-0048,LDL Cholesterol,88.0,mg/dL,< 100,N,2026-04-03,Final
+PAT-0049,eGFR Kidney Function,67.0,mL/min/1.73m2,> 60,N,2026-02-13,Final
+PAT-0050,Blood Pressure Systolic,151.0,mmHg,90 - 120,Y,2026-03-02,Final
+PAT-0050,Fasting Blood Glucose,172.0,mg/dL,70 - 99,Y,2026-05-08,Final
+PAT-0051,HbA1c,5.9,%,4.0 - 5.6,N,2026-05-21,Final
+PAT-0051,Fasting Blood Glucose,173.0,mg/dL,70 - 99,Y,2026-04-25,Final
+PAT-0051,Blood Pressure Systolic,161.0,mmHg,90 - 120,Critical,2026-04-25,Final
+PAT-0052,LDL Cholesterol,186.0,mg/dL,< 100,Y,2026-06-19,Final
+PAT-0052,eGFR Kidney Function,95.0,mL/min/1.73m2,> 60,N,2026-06-22,Final
+PAT-0052,Fasting Blood Glucose,121.0,mg/dL,70 - 99,N,2026-02-21,Final
+PAT-0053,eGFR Kidney Function,82.0,mL/min/1.73m2,> 60,N,2026-06-05,Final
+PAT-0053,Blood Pressure Systolic,162.0,mmHg,90 - 120,Critical,2026-03-21,Final
+PAT-0054,Fasting Blood Glucose,184.0,mg/dL,70 - 99,Y,2026-04-30,Final
+PAT-0054,eGFR Kidney Function,48.0,mL/min/1.73m2,> 60,Y,2026-05-14,Final
+PAT-0054,Blood Pressure Systolic,115.0,mmHg,90 - 120,N,2026-05-15,Final
+PAT-0055,eGFR Kidney Function,90.0,mL/min/1.73m2,> 60,N,2026-03-27,Final
+PAT-0056,Fasting Blood Glucose,139.0,mg/dL,70 - 99,Y,2026-05-19,Final
+PAT-0057,eGFR Kidney Function,69.0,mL/min/1.73m2,> 60,N,2026-06-17,Final
+PAT-0058,Blood Pressure Systolic,151.0,mmHg,90 - 120,Y,2026-03-16,Final
+PAT-0058,Fasting Blood Glucose,136.0,mg/dL,70 - 99,Y,2026-06-28,Final
+PAT-0058,HbA1c,9.4,%,4.0 - 5.6,Y,2026-02-28,Final
+PAT-0059,eGFR Kidney Function,47.0,mL/min/1.73m2,> 60,Y,2026-02-13,Final
+PAT-0059,Blood Pressure Systolic,163.0,mmHg,90 - 120,Critical,2026-04-23,Final
+PAT-0060,eGFR Kidney Function,57.0,mL/min/1.73m2,> 60,Y,2026-07-13,Final
+PAT-0060,Blood Pressure Systolic,127.0,mmHg,90 - 120,N,2026-03-21,Final
+PAT-0061,LDL Cholesterol,90.0,mg/dL,< 100,N,2026-04-03,Final
+PAT-0062,LDL Cholesterol,189.0,mg/dL,< 100,Y,2026-03-13,Final
+PAT-0062,Fasting Blood Glucose,163.0,mg/dL,70 - 99,Y,2026-04-27,Final
+PAT-0062,Blood Pressure Systolic,149.0,mmHg,90 - 120,Y,2026-05-22,Final
+PAT-0063,HbA1c,10.0,%,4.0 - 5.6,Y,2026-04-13,Final
+PAT-0064,LDL Cholesterol,173.0,mg/dL,< 100,Y,2026-04-01,Final
+PAT-0065,Blood Pressure Systolic,137.0,mmHg,90 - 120,Y,2026-03-04,Final
+PAT-0066,eGFR Kidney Function,78.0,mL/min/1.73m2,> 60,N,2026-07-06,Final
+PAT-0066,Blood Pressure Systolic,147.0,mmHg,90 - 120,Y,2026-05-25,Final
+PAT-0067,eGFR Kidney Function,61.0,mL/min/1.73m2,> 60,N,2026-03-03,Final
+PAT-0067,HbA1c,8.4,%,4.0 - 5.6,Y,2026-02-02,Final
+PAT-0068,LDL Cholesterol,192.0,mg/dL,< 100,Y,2026-05-08,Final
+PAT-0068,Blood Pressure Systolic,132.0,mmHg,90 - 120,Y,2026-04-17,Final
+PAT-0069,Fasting Blood Glucose,93.0,mg/dL,70 - 99,N,2026-05-25,Final
+PAT-0069,HbA1c,9.3,%,4.0 - 5.6,Y,2026-04-28,Final
+PAT-0070,HbA1c,10.4,%,4.0 - 5.6,Y,2026-06-21,Final
+PAT-0071,Fasting Blood Glucose,193.0,mg/dL,70 - 99,Y,2026-06-07,Final
+PAT-0072,eGFR Kidney Function,92.0,mL/min/1.73m2,> 60,N,2026-02-15,Final
+PAT-0072,Fasting Blood Glucose,148.0,mg/dL,70 - 99,Y,2026-02-12,Final
+PAT-0072,HbA1c,11.0,%,4.0 - 5.6,Y,2026-06-13,Final
+PAT-0073,Fasting Blood Glucose,177.0,mg/dL,70 - 99,Y,2026-04-06,Final
+PAT-0073,HbA1c,8.6,%,4.0 - 5.6,Y,2026-04-10,Final
+PAT-0074,LDL Cholesterol,207.0,mg/dL,< 100,Y,2026-06-14,Final
+PAT-0074,Fasting Blood Glucose,121.0,mg/dL,70 - 99,N,2026-05-14,Final
+PAT-0074,eGFR Kidney Function,67.0,mL/min/1.73m2,> 60,N,2026-03-03,Final
+PAT-0075,LDL Cholesterol,142.0,mg/dL,< 100,Y,2026-05-02,Final
+PAT-0075,Fasting Blood Glucose,150.0,mg/dL,70 - 99,Y,2026-03-02,Final
+PAT-0076,LDL Cholesterol,93.0,mg/dL,< 100,N,2026-07-03,Final
+PAT-0076,Blood Pressure Systolic,110.0,mmHg,90 - 120,N,2026-06-03,Final
+PAT-0076,eGFR Kidney Function,91.0,mL/min/1.73m2,> 60,N,2026-07-08,Final
+PAT-0077,Blood Pressure Systolic,118.0,mmHg,90 - 120,N,2026-03-14,Final
+PAT-0078,Blood Pressure Systolic,180.0,mmHg,90 - 120,Critical,2026-02-24,Final
+PAT-0079,Fasting Blood Glucose,177.0,mg/dL,70 - 99,Y,2026-03-29,Final
+PAT-0079,Blood Pressure Systolic,119.0,mmHg,90 - 120,N,2026-07-23,Final
+PAT-0080,Fasting Blood Glucose,165.0,mg/dL,70 - 99,Y,2026-02-09,Final
+PAT-0080,HbA1c,9.8,%,4.0 - 5.6,Y,2026-06-27,Final
+PAT-0080,Blood Pressure Systolic,111.0,mmHg,90 - 120,N,2026-06-22,Final
+PAT-0081,HbA1c,8.3,%,4.0 - 5.6,Y,2026-07-13,Final
+PAT-0081,eGFR Kidney Function,93.0,mL/min/1.73m2,> 60,N,2026-03-04,Final
+PAT-0081,Blood Pressure Systolic,131.0,mmHg,90 - 120,Y,2026-04-24,Final
+PAT-0082,HbA1c,10.2,%,4.0 - 5.6,Y,2026-07-16,Final
+PAT-0082,Blood Pressure Systolic,161.0,mmHg,90 - 120,Critical,2026-07-10,Final
+PAT-0082,Fasting Blood Glucose,192.0,mg/dL,70 - 99,Y,2026-03-30,Final
+PAT-0083,LDL Cholesterol,205.0,mg/dL,< 100,Y,2026-05-28,Final
+PAT-0083,HbA1c,7.7,%,4.0 - 5.6,Y,2026-07-12,Final
+PAT-0083,eGFR Kidney Function,48.0,mL/min/1.73m2,> 60,Y,2026-05-17,Final
+PAT-0084,eGFR Kidney Function,75.0,mL/min/1.73m2,> 60,N,2026-06-04,Final
+PAT-0084,HbA1c,7.9,%,4.0 - 5.6,Y,2026-03-31,Final
+PAT-0085,Blood Pressure Systolic,135.0,mmHg,90 - 120,Y,2026-04-16,Final
+PAT-0086,Blood Pressure Systolic,179.0,mmHg,90 - 120,Critical,2026-07-23,Final
+PAT-0086,Fasting Blood Glucose,128.0,mg/dL,70 - 99,Y,2026-04-27,Final
+PAT-0087,LDL Cholesterol,160.0,mg/dL,< 100,Y,2026-03-04,Final
+PAT-0087,HbA1c,8.7,%,4.0 - 5.6,Y,2026-03-05,Final
+PAT-0087,Fasting Blood Glucose,104.0,mg/dL,70 - 99,N,2026-03-23,Final
+PAT-0088,eGFR Kidney Function,70.0,mL/min/1.73m2,> 60,N,2026-06-13,Final
+PAT-0088,Fasting Blood Glucose,170.0,mg/dL,70 - 99,Y,2026-03-06,Final
+PAT-0088,LDL Cholesterol,161.0,mg/dL,< 100,Y,2026-05-31,Final
+PAT-0089,LDL Cholesterol,184.0,mg/dL,< 100,Y,2026-07-25,Final
+PAT-0090,LDL Cholesterol,75.0,mg/dL,< 100,N,2026-05-07,Final
+PAT-0091,Fasting Blood Glucose,92.0,mg/dL,70 - 99,N,2026-07-21,Final
+PAT-0091,eGFR Kidney Function,56.0,mL/min/1.73m2,> 60,Y,2026-06-14,Final
+PAT-0091,HbA1c,9.1,%,4.0 - 5.6,Y,2026-07-07,Final
+PAT-0092,Blood Pressure Systolic,176.0,mmHg,90 - 120,Critical,2026-04-11,Final
+PAT-0092,HbA1c,11.3,%,4.0 - 5.6,Y,2026-02-02,Final
+PAT-0092,Fasting Blood Glucose,190.0,mg/dL,70 - 99,Y,2026-03-28,Final
+PAT-0093,HbA1c,7.5,%,4.0 - 5.6,Y,2026-04-17,Final
+PAT-0094,Fasting Blood Glucose,102.0,mg/dL,70 - 99,N,2026-05-18,Final
+PAT-0094,eGFR Kidney Function,81.0,mL/min/1.73m2,> 60,N,2026-06-21,Final
+PAT-0094,HbA1c,9.0,%,4.0 - 5.6,Y,2026-02-03,Final
+PAT-0095,eGFR Kidney Function,33.0,mL/min/1.73m2,> 60,Critical,2026-06-13,Final
+PAT-0095,Blood Pressure Systolic,134.0,mmHg,90 - 120,Y,2026-06-06,Final
+PAT-0095,LDL Cholesterol,84.0,mg/dL,< 100,N,2026-05-25,Final
+PAT-0096,eGFR Kidney Function,74.0,mL/min/1.73m2,> 60,N,2026-04-30,Final
+PAT-0097,Blood Pressure Systolic,142.0,mmHg,90 - 120,Y,2026-02-22,Final
+PAT-0098,eGFR Kidney Function,47.0,mL/min/1.73m2,> 60,Y,2026-07-21,Final
+PAT-0098,LDL Cholesterol,197.0,mg/dL,< 100,Y,2026-05-13,Final
+PAT-0098,Fasting Blood Glucose,113.0,mg/dL,70 - 99,N,2026-04-11,Final
+PAT-0099,eGFR Kidney Function,90.0,mL/min/1.73m2,> 60,N,2026-07-14,Final
+PAT-0099,HbA1c,10.6,%,4.0 - 5.6,Y,2026-02-28,Final
+PAT-0100,Blood Pressure Systolic,117.0,mmHg,90 - 120,N,2026-07-26,Final
+PAT-0100,LDL Cholesterol,185.0,mg/dL,< 100,Y,2026-05-18,Final
+PAT-0100,eGFR Kidney Function,56.0,mL/min/1.73m2,> 60,Y,2026-06-14,Final

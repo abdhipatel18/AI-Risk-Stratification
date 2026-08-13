@@ -1,0 +1,103 @@
+patient_id,first_name,last_name,date_of_birth,age,gender,zip_code,primary_care_provider,clinic,last_visit_date,next_scheduled_appointment_date,insurance_or_payer
+PAT-0001,Emily,Smith,1942-01-25,84,Female,42098,Dr. Bob Jones,Northside Community Clinic,2026-05-31,,Humana
+PAT-0002,Emily,Williams,1974-07-06,52,Male,57052,Dr. Carol Danvers,Eastside Health,2026-06-30,,BlueCross BlueShield
+PAT-0003,Michael,Martin,1951-08-19,75,Male,80010,Dr. Bob Jones,Northside Community Clinic,2026-01-09,2026-09-15,Aetna
+PAT-0004,Michael,Johnson,1998-10-05,27,Male,92240,Dr. Bob Jones,Downtown Medical,2026-06-20,,UnitedHealthcare
+PAT-0005,Heather,Hernandez,1964-10-05,61,Male,24662,Dr. Carol Danvers,Valley Care Center,2026-06-23,2026-09-11,Medicaid
+PAT-0006,John,Jackson,1958-11-26,67,Male,87128,Dr. Bob Jones,Metro Health Main,2025-07-25,,Medicare
+PAT-0007,Robert,Moore,1968-05-07,58,Male,65296,Dr. Bob Jones,Valley Care Center,2026-03-17,,Aetna
+PAT-0008,Nicole,Jones,1991-07-24,35,Female,38534,Dr. Alice Smith,Eastside Health,2025-10-18,2026-08-26,Humana
+PAT-0009,Jessica,Gonzalez,1997-11-03,28,Male,85880,Dr. Elena Rostova,Metro Health Main,2026-06-11,,UnitedHealthcare
+PAT-0010,William,Brown,1998-12-29,27,Male,45697,Dr. Carol Danvers,Eastside Health,2025-07-20,2026-09-18,Medicaid
+PAT-0011,Ashley,Johnson,1976-06-30,50,Male,99399,Dr. Bob Jones,Metro Health Main,2025-10-09,,BlueCross BlueShield
+PAT-0012,William,Lopez,1951-01-17,75,Female,99065,Dr. Elena Rostova,Valley Care Center,2026-05-24,,Medicare
+PAT-0013,Amanda,Taylor,1980-11-06,45,Female,52753,Dr. David Banner,Valley Care Center,2026-05-18,2026-09-17,UnitedHealthcare
+PAT-0014,Heather,Williams,1967-09-27,58,Female,92544,Dr. Elena Rostova,Northside Community Clinic,2025-07-31,,Humana
+PAT-0015,Jessica,Rodriguez,1978-06-19,48,Female,80798,Dr. Alice Smith,Northside Community Clinic,2026-03-26,,Medicaid
+PAT-0016,Nicole,Davis,1984-02-10,42,Female,73654,Dr. Alice Smith,Downtown Medical,2025-08-14,,BlueCross BlueShield
+PAT-0017,Heather,Jones,1987-03-13,39,Male,72070,Dr. Alice Smith,Eastside Health,2025-11-26,,Medicaid
+PAT-0018,David,Wilson,1992-10-17,33,Female,90728,Dr. Elena Rostova,Downtown Medical,2025-12-11,,Aetna
+PAT-0019,Nicole,Thomas,1968-05-22,58,Male,22196,Dr. Carol Danvers,Northside Community Clinic,2025-08-02,2026-09-17,Aetna
+PAT-0020,William,Johnson,2003-09-15,22,Female,26551,Dr. David Banner,Metro Health Main,2025-10-02,2026-09-05,Medicare
+PAT-0021,Robert,Miller,1984-11-08,41,Male,30585,Dr. Bob Jones,Northside Community Clinic,2026-06-14,2026-09-01,UnitedHealthcare
+PAT-0022,Michael,Davis,1948-02-07,78,Male,98117,Dr. Carol Danvers,Eastside Health,2025-06-27,,Medicare
+PAT-0023,Elizabeth,Anderson,1971-07-10,55,Male,34586,Dr. Elena Rostova,Valley Care Center,2025-06-30,,UnitedHealthcare
+PAT-0024,Robert,Martin,1962-12-31,63,Male,19150,Dr. Carol Danvers,Downtown Medical,2025-11-05,2026-08-06,BlueCross BlueShield
+PAT-0025,Emily,Anderson,1999-08-26,26,Female,12011,Dr. Bob Jones,Downtown Medical,2026-05-04,2026-09-25,Humana
+PAT-0026,Sarah,Garcia,2001-07-06,25,Female,91226,Dr. Bob Jones,Downtown Medical,2026-05-10,2026-09-15,UnitedHealthcare
+PAT-0027,Heather,Thomas,1982-12-02,43,Male,89569,Dr. Carol Danvers,Northside Community Clinic,2026-04-16,,Humana
+PAT-0028,Charles,Williams,1995-12-20,30,Male,98647,Dr. David Banner,Eastside Health,2026-06-06,,BlueCross BlueShield
+PAT-0029,Amanda,Wilson,1998-02-16,28,Male,15943,Dr. Alice Smith,Valley Care Center,2026-05-24,2026-09-09,Aetna
+PAT-0030,Ashley,Moore,1950-09-30,75,Female,17936,Dr. David Banner,Valley Care Center,2026-05-21,,Medicaid
+PAT-0031,William,Johnson,1997-03-23,29,Female,78955,Dr. Alice Smith,Metro Health Main,2025-12-05,,Aetna
+PAT-0032,Heather,Jackson,1959-05-27,67,Female,59925,Dr. Elena Rostova,Eastside Health,2025-12-02,,BlueCross BlueShield
+PAT-0033,Stephanie,Lopez,1948-11-27,77,Female,16743,Dr. Carol Danvers,Eastside Health,2026-01-23,2026-09-07,BlueCross BlueShield
+PAT-0034,Michael,Jones,1942-02-13,84,Male,22026,Dr. Elena Rostova,Northside Community Clinic,2025-12-20,,Aetna
+PAT-0035,Ashley,Wilson,1998-08-25,27,Female,98895,Dr. Elena Rostova,Downtown Medical,2025-08-15,2026-08-20,UnitedHealthcare
+PAT-0036,Emily,Davis,1969-07-05,57,Female,78676,Dr. Alice Smith,Downtown Medical,2025-07-06,2026-08-27,BlueCross BlueShield
+PAT-0037,Sarah,Thomas,1966-12-22,59,Female,99277,Dr. Elena Rostova,Eastside Health,2025-09-04,2026-09-03,BlueCross BlueShield
+PAT-0038,Charles,Jackson,1958-11-13,67,Male,68947,Dr. Elena Rostova,Northside Community Clinic,2025-09-16,,BlueCross BlueShield
+PAT-0039,James,Williams,1956-04-25,70,Male,55851,Dr. Carol Danvers,Downtown Medical,2025-09-21,,Medicaid
+PAT-0040,Robert,Davis,1996-04-03,30,Male,20114,Dr. Carol Danvers,Metro Health Main,2025-10-19,,UnitedHealthcare
+PAT-0041,Robert,Lopez,1947-09-29,78,Female,70513,Dr. Carol Danvers,Downtown Medical,2025-10-25,,UnitedHealthcare
+PAT-0042,Charles,Lopez,2006-03-16,20,Female,16980,Dr. David Banner,Eastside Health,2026-03-24,,BlueCross BlueShield
+PAT-0043,Jessica,Martinez,1997-08-31,28,Male,41252,Dr. David Banner,Eastside Health,2026-06-20,2026-09-06,Aetna
+PAT-0044,Jane,Gonzalez,1975-02-08,51,Female,12128,Dr. Carol Danvers,Metro Health Main,2026-03-21,,BlueCross BlueShield
+PAT-0045,Amanda,Miller,2004-08-31,21,Male,15492,Dr. Carol Danvers,Valley Care Center,2025-12-31,,UnitedHealthcare
+PAT-0046,Sarah,Anderson,1977-01-21,49,Female,15551,Dr. Carol Danvers,Eastside Health,2026-03-04,,Aetna
+PAT-0047,Heather,Jones,1947-09-04,78,Female,58623,Dr. Carol Danvers,Downtown Medical,2025-10-02,2026-08-29,Medicare
+PAT-0048,Robert,Jones,1987-05-11,39,Female,13445,Dr. Carol Danvers,Eastside Health,2026-01-15,,UnitedHealthcare
+PAT-0049,Amanda,Garcia,1994-01-24,32,Female,39552,Dr. Carol Danvers,Eastside Health,2026-06-12,2026-09-15,BlueCross BlueShield
+PAT-0050,Sarah,Anderson,1971-04-23,55,Female,70875,Dr. Bob Jones,Valley Care Center,2026-05-10,2026-09-20,UnitedHealthcare
+PAT-0051,Nicole,Martinez,1963-12-23,62,Male,21802,Dr. David Banner,Eastside Health,2026-03-21,2026-08-28,Aetna
+PAT-0052,Joseph,Johnson,1957-06-08,69,Male,57516,Dr. Elena Rostova,Valley Care Center,2026-01-06,,Medicare
+PAT-0053,Elizabeth,Thomas,1945-01-05,81,Female,72245,Dr. Alice Smith,Valley Care Center,2025-08-12,2026-09-01,BlueCross BlueShield
+PAT-0054,Elizabeth,Lopez,1947-12-18,78,Female,89963,Dr. David Banner,Northside Community Clinic,2026-03-02,,Medicaid
+PAT-0055,Ashley,Anderson,1949-09-30,76,Female,72793,Dr. Bob Jones,Northside Community Clinic,2026-03-06,,UnitedHealthcare
+PAT-0056,Michael,Jackson,1987-10-06,38,Male,32946,Dr. David Banner,Northside Community Clinic,2025-12-31,,Medicare
+PAT-0057,William,Garcia,2007-05-02,19,Female,48669,Dr. Elena Rostova,Northside Community Clinic,2025-09-13,,Medicaid
+PAT-0058,David,Anderson,1954-04-03,72,Female,64505,Dr. Elena Rostova,Downtown Medical,2025-08-16,,UnitedHealthcare
+PAT-0059,Amanda,Smith,1973-01-27,53,Female,10395,Dr. Bob Jones,Eastside Health,2026-06-29,,Medicare
+PAT-0060,Thomas,Jones,1943-04-19,83,Male,10455,Dr. Alice Smith,Valley Care Center,2025-08-12,,Aetna
+PAT-0061,Thomas,Davis,1971-06-30,55,Female,46064,Dr. Alice Smith,Eastside Health,2025-07-11,,UnitedHealthcare
+PAT-0062,Michael,Miller,1955-11-19,70,Male,72835,Dr. Bob Jones,Valley Care Center,2026-07-15,2026-08-18,BlueCross BlueShield
+PAT-0063,Ashley,Hernandez,1971-06-18,55,Male,83731,Dr. Bob Jones,Northside Community Clinic,2026-03-11,,Medicare
+PAT-0064,John,Miller,1963-03-24,63,Female,58916,Dr. Alice Smith,Eastside Health,2025-08-15,,Humana
+PAT-0065,Jane,Williams,1972-03-27,54,Female,59436,Dr. Elena Rostova,Downtown Medical,2025-08-30,2026-08-16,Medicare
+PAT-0066,Daniel,Jones,1944-08-27,81,Female,20084,Dr. Carol Danvers,Northside Community Clinic,2026-03-21,,UnitedHealthcare
+PAT-0067,Michael,Rodriguez,1994-10-05,31,Female,93086,Dr. Bob Jones,Downtown Medical,2026-01-19,2026-08-06,BlueCross BlueShield
+PAT-0068,Amanda,Thomas,2001-09-11,24,Female,42990,Dr. Bob Jones,Downtown Medical,2025-09-10,2026-08-12,UnitedHealthcare
+PAT-0069,Joseph,Lopez,1998-05-19,28,Male,87624,Dr. Elena Rostova,Northside Community Clinic,2025-10-14,2026-09-21,Humana
+PAT-0070,James,Wilson,1999-02-03,27,Male,22924,Dr. Carol Danvers,Northside Community Clinic,2025-07-05,,UnitedHealthcare
+PAT-0071,Nicole,Brown,1969-04-15,57,Female,51800,Dr. Alice Smith,Valley Care Center,2025-07-24,2026-09-29,Medicare
+PAT-0072,Ashley,Hernandez,1990-12-01,35,Female,24936,Dr. Carol Danvers,Downtown Medical,2025-08-29,2026-08-30,UnitedHealthcare
+PAT-0073,James,Anderson,1953-01-10,73,Male,57059,Dr. Alice Smith,Downtown Medical,2026-04-14,,Medicaid
+PAT-0074,Jessica,Martinez,2005-09-14,20,Female,44447,Dr. Carol Danvers,Metro Health Main,2026-05-23,,Aetna
+PAT-0075,David,Davis,1995-06-23,31,Female,42447,Dr. David Banner,Downtown Medical,2025-09-30,,Medicaid
+PAT-0076,Jane,Johnson,1999-08-31,26,Female,12134,Dr. Alice Smith,Northside Community Clinic,2025-12-01,2026-09-02,Aetna
+PAT-0077,John,Smith,1946-03-11,80,Female,25806,Dr. David Banner,Northside Community Clinic,2026-06-16,2026-08-11,Aetna
+PAT-0078,Heather,Garcia,1969-02-10,57,Female,37925,Dr. Bob Jones,Downtown Medical,2025-08-05,,UnitedHealthcare
+PAT-0079,Amanda,Johnson,1987-02-15,39,Female,60578,Dr. Alice Smith,Northside Community Clinic,2025-08-30,,Aetna
+PAT-0080,John,Rodriguez,1989-03-29,37,Male,17925,Dr. David Banner,Eastside Health,2025-09-04,,BlueCross BlueShield
+PAT-0081,Sarah,Thomas,1977-06-29,49,Female,31884,Dr. Carol Danvers,Northside Community Clinic,2026-03-07,,Humana
+PAT-0082,Jessica,Taylor,2008-05-13,18,Male,11610,Dr. Bob Jones,Metro Health Main,2026-01-17,,Aetna
+PAT-0083,Amanda,Jackson,1981-05-01,45,Male,70807,Dr. Carol Danvers,Eastside Health,2026-04-13,,Aetna
+PAT-0084,Jane,Davis,1961-12-19,64,Female,58823,Dr. David Banner,Metro Health Main,2026-06-04,,UnitedHealthcare
+PAT-0085,James,Jones,2000-05-31,26,Male,56627,Dr. David Banner,Eastside Health,2025-08-10,2026-09-27,Medicare
+PAT-0086,David,Williams,1978-11-07,47,Male,15596,Dr. David Banner,Metro Health Main,2025-10-02,,Medicaid
+PAT-0087,John,Rodriguez,2003-05-05,23,Female,79393,Dr. Carol Danvers,Eastside Health,2026-05-02,2026-09-17,Medicaid
+PAT-0088,John,Taylor,1965-09-18,60,Male,53481,Dr. Elena Rostova,Northside Community Clinic,2026-01-29,,Medicaid
+PAT-0089,David,Garcia,1943-03-18,83,Male,85082,Dr. David Banner,Eastside Health,2026-04-20,,Medicare
+PAT-0090,Jane,Gonzalez,1969-04-13,57,Female,31802,Dr. David Banner,Downtown Medical,2026-01-24,,Aetna
+PAT-0091,Elizabeth,Williams,1978-04-12,48,Female,14062,Dr. David Banner,Northside Community Clinic,2025-12-12,2026-08-12,UnitedHealthcare
+PAT-0092,Ashley,Garcia,1968-08-08,58,Male,44510,Dr. David Banner,Downtown Medical,2026-03-29,,BlueCross BlueShield
+PAT-0093,Jane,Taylor,1957-05-08,69,Male,25765,Dr. David Banner,Northside Community Clinic,2026-04-05,,Medicaid
+PAT-0094,Emily,Wilson,1995-03-04,31,Male,84264,Dr. Elena Rostova,Eastside Health,2026-05-29,,Medicare
+PAT-0095,Amanda,Rodriguez,1964-06-28,62,Male,39878,Dr. Bob Jones,Valley Care Center,2025-12-08,,Humana
+PAT-0096,Charles,Johnson,1976-04-07,50,Male,45910,Dr. Carol Danvers,Downtown Medical,2025-12-31,,UnitedHealthcare
+PAT-0097,Joseph,Johnson,1993-12-24,32,Male,39012,Dr. Bob Jones,Northside Community Clinic,2025-08-23,,BlueCross BlueShield
+PAT-0098,Charles,Martinez,1947-11-04,78,Female,86609,Dr. Alice Smith,Metro Health Main,2025-08-17,,UnitedHealthcare
+PAT-0099,Sarah,Moore,1992-05-06,34,Female,22793,Dr. David Banner,Northside Community Clinic,2026-03-12,,Humana
+PAT-0100,Nicole,Miller,1963-09-12,62,Male,99220,Dr. David Banner,Eastside Health,2025-12-23,2026-09-29,BlueCross BlueShield
+,Ghost,User,1990-01-01,36,Male,00000,Dr. Unknown,Metro Health Main,2026-01-01,,Self
+PAT-0001,Emily,Smith,1942-01-25,84,Female,42098,Dr. Bob Jones,Northside Community Clinic,2026-05-31,,Humana

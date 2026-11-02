@@ -1,6 +1,6 @@
 # ABDHI P PATEL
 **AI/ML ENGINEER**  
-📞 +91 9019282910 | ✉️ [abdhipatel18@gmail.com](mailto:abdhipatel18@gmail.com) | 🔗 [LinkedIn](https://linkedin.com/in/abdhipatel) | 💻 [GitHub: abdhipatel18](https://github.com/abdhipatel18) | 📍 Chamarajanagar, India  
+📞 +91 9019282910 | ✉️ [abdhipatel18@gmail.com](mailto:abdhipatel18@gmail.com) | 🔗 [LinkedIn](http://www.linkedin.com/in/abdhi-p-patel-712488292) | 💻 [GitHub: abdhipatel18](https://github.com/abdhipatel18) | 📍 Chamarajanagar, India  
 
 ---
 
@@ -50,7 +50,7 @@ Motivated **AI/ML Engineer** with a strong foundation in machine learning, data 
 ---
 
 ## 📜 CERTIFICATES
-- **AI for Future Workforce** – Intel
-- **AI Fluency: Framework and Foundations** – Anthropic
-- **Claude 101** – Anthropic
-- **Internship Completion Certificate** — AI-Based Patient Risk Stratification and Scheduling Prioritization, MyClinicPulse LLC, Arizona, USA (August 2026)
+- AI for Future Workforce – Intel : [Certificate](https://drive.google.com/file/d/1_RAP9YGkyizoipB0psFVCeFo0Nr2BdZp/view?usp=drivesdk)
+- AI Fluency: Framework and Foundations by Anthropic : [Certificate](https://drive.google.com/file/d/16JTpQl1lkHdlfUnJnGzL23H_7AqAYH7Y/view?usp=drivesdk)
+- Claude 101 by Anthropic : [Certificate](https://drive.google.com/file/d/1g4p8EUZyU3xFl-913ddSw0Y8xdH6QgIA/view?usp=drivesdk)
+- Internship Completion Certificate — AI-Based Patient Risk Stratification and Scheduling Prioritization, MyClinicPulse LLC, Arizona, USA | August 2026 : [Certificate](https://drive.google.com/file/d/14uKC1svAcYrI5JJCYSHdty21s9rlxWOp/view?usp=drivesdk)

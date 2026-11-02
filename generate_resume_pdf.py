@@ -1,8 +1,6 @@
 """
 Generates the updated, ATS-compliant, single-page resume in PDF and DOCX formats.
-Title: AI/ML ENGINEER
-Updated BE CGPA: 6.60
-Includes MyClinicPulse Internship, AI Personalized Learning System, and updated Skills.
+Includes exact clickable hyperlinks for all certificates and contact info from the uploaded PDF.
 """
 
 import os
@@ -18,16 +16,25 @@ downloads_pdf_path = r"C:\Users\Abdhi Patel\Downloads\ABDHI_Patel_Resume.pdf"
 docx_path = r"c:\Users\Abdhi Patel\OneDrive\Desktop\abdhi\ABDHI_Patel_Resume.docx"
 downloads_docx_path = r"C:\Users\Abdhi Patel\Downloads\ABDHI_Patel_Resume.docx"
 
+# Exact Certificate URLs extracted from the user's uploaded PDF:
+INTEL_CERT_URL = "https://drive.google.com/file/d/1_RAP9YGkyizoipB0psFVCeFo0Nr2BdZp/view?usp=drivesdk"
+ANTHROPIC_FLUENCY_CERT_URL = "https://drive.google.com/file/d/16JTpQl1lkHdlfUnJnGzL23H_7AqAYH7Y/view?usp=drivesdk"
+CLAUDE_101_CERT_URL = "https://drive.google.com/file/d/1g4p8EUZyU3xFl-913ddSw0Y8xdH6QgIA/view?usp=drivesdk"
+INTERNSHIP_CERT_URL = "https://drive.google.com/file/d/14uKC1svAcYrI5JJCYSHdty21s9rlxWOp/view?usp=drivesdk"
+LINKEDIN_URL = "http://www.linkedin.com/in/abdhi-p-patel-712488292"
+GITHUB_URL = "https://github.com/abdhipatel18"
+EMAIL_URL = "mailto:abdhipatel18@gmail.com"
+
 # =========================================================================
 # 1. GENERATE PDF RESUME (REPORTLAB)
 # =========================================================================
 doc = SimpleDocTemplate(
     pdf_path,
     pagesize=letter,
-    leftMargin=30,
-    rightMargin=30,
-    topMargin=22,
-    bottomMargin=22
+    leftMargin=28,
+    rightMargin=28,
+    topMargin=20,
+    bottomMargin=20
 )
 
 styles = getSampleStyleSheet()
@@ -119,9 +126,9 @@ story.append(Paragraph("AI/ML ENGINEER", subtitle_style))
 story.append(Spacer(1, 2))
 contact_html = (
     "+91 9019282910 &nbsp;&nbsp;•&nbsp;&nbsp; "
-    "<font color='#1e40af'>abdhipatel18@gmail.com</font> &nbsp;&nbsp;•&nbsp;&nbsp; "
-    "<font color='#1e40af'>LinkedIn</font> &nbsp;&nbsp;•&nbsp;&nbsp; "
-    "<font color='#1e40af'>GitHub: abdhipatel18</font> &nbsp;&nbsp;•&nbsp;&nbsp; "
+    f"<a href='{EMAIL_URL}'><font color='#1e40af'><u>abdhipatel18@gmail.com</u></font></a> &nbsp;&nbsp;•&nbsp;&nbsp; "
+    f"<a href='{LINKEDIN_URL}'><font color='#1e40af'><u>LinkedIn</u></font></a> &nbsp;&nbsp;•&nbsp;&nbsp; "
+    f"<a href='{GITHUB_URL}'><font color='#1e40af'><u>GitHub: abdhipatel18</u></font></a> &nbsp;&nbsp;•&nbsp;&nbsp; "
     "Chamarajanagar, India"
 )
 story.append(Paragraph(contact_html, contact_style))
@@ -152,7 +159,7 @@ skills_data = [
         Paragraph("<b>Core Concepts & DBs:</b> Data Structures, DBMS, PostgreSQL, MySQL, OS, Networks", body_style)
     ]
 ]
-skills_table = Table(skills_data, colWidths=[278, 274])
+skills_table = Table(skills_data, colWidths=[280, 276])
 skills_table.setStyle(TableStyle([
     ("VALIGN", (0, 0), (-1, -1), "TOP"),
     ("BOTTOMPADDING", (0, 0), (-1, -1), 0.5),
@@ -178,7 +185,7 @@ edu_data = [
         Paragraph("<b>2021 – 2023</b>", ParagraphStyle("Right2", parent=body_style, alignment=2))
     ]
 ]
-edu_table = Table(edu_data, colWidths=[432, 120])
+edu_table = Table(edu_data, colWidths=[436, 120])
 edu_table.setStyle(TableStyle([
     ("VALIGN", (0, 0), (-1, -1), "TOP"),
     ("LEFTPADDING", (0, 0), (-1, -1), 0),
@@ -200,7 +207,7 @@ exp_data = [
         Paragraph("<b>August 2026</b>", ParagraphStyle("RightDate", parent=item_title_style, alignment=2))
     ]
 ]
-exp_table = Table(exp_data, colWidths=[432, 120])
+exp_table = Table(exp_data, colWidths=[436, 120])
 exp_table.setStyle(TableStyle([
     ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
     ("LEFTPADDING", (0, 0), (-1, -1), 0),
@@ -222,7 +229,7 @@ intern_bullets = [
 for b in intern_bullets:
     story.append(Paragraph(b, bullet_style))
 
-story.append(Spacer(1, 3))
+story.append(Spacer(1, 2.5))
 
 # Project 2: AI Personalized Learning System
 story.append(Paragraph("<b>AI Personalized Learning System</b>", item_title_style))
@@ -238,13 +245,13 @@ for b in p2_bullets:
 story.append(Spacer(1, 2))
 story.append(HRFlowable(width="100%", thickness=0.8, color=colors.HexColor("#0f172a"), spaceBefore=1, spaceAfter=3))
 
-# --- 6. CERTIFICATES ---
+# --- 6. CERTIFICATES (WITH EXACT CLICKABLE HYPERLINKS) ---
 story.append(Paragraph("CERTIFICATES", heading_style))
 certs = [
-    "• <b>AI for Future Workforce</b> – Intel",
-    "• <b>AI Fluency: Framework and Foundations</b> – Anthropic",
-    "• <b>Claude 101</b> – Anthropic",
-    "• <b>Internship Completion Certificate</b> — AI-Based Patient Risk Stratification and Scheduling Prioritization, MyClinicPulse LLC, Arizona, USA"
+    f"• AI for Future Workforce – Intel : <a href='{INTEL_CERT_URL}'><font color='#1e40af'><u>Certificate</u></font></a>",
+    f"• AI Fluency: Framework and Foundations by Anthropic : <a href='{ANTHROPIC_FLUENCY_CERT_URL}'><font color='#1e40af'><u>Certificate</u></font></a>",
+    f"• Claude 101 by Anthropic : <a href='{CLAUDE_101_CERT_URL}'><font color='#1e40af'><u>Certificate</u></font></a>",
+    f"• Internship Completion Certificate — AI-Based Patient Risk Stratification and Scheduling Prioritization, MyClinicPulse LLC, Arizona, USA | August 2026 : <a href='{INTERNSHIP_CERT_URL}'><font color='#1e40af'><u>Certificate</u></font></a>"
 ]
 for c in certs:
     story.append(Paragraph(c, bullet_style))
@@ -258,7 +265,7 @@ print("Copied PDF to Downloads:", downloads_pdf_path)
 
 
 # =========================================================================
-# 2. GENERATE DOCX RESUME (PYTHON-DOCX)
+# 2. GENERATE DOCX RESUME (PYTHON-DOCX) WITH HYPERLINKS
 # =========================================================================
 import docx
 from docx.shared import Inches, Pt, RGBColor
@@ -282,6 +289,26 @@ def add_docx_hr(p):
     pBdr.append(bottom)
     pPr.append(pBdr)
 
+def add_hyperlink(paragraph, url, text, color="1E40AF", underline=True):
+    part = paragraph.part
+    r_id = part.relate_to(url, docx.opc.constants.RELATIONSHIP_TYPE.HYPERLINK, is_external=True)
+    hyperlink = docx.oxml.OxmlElement('w:hyperlink')
+    hyperlink.set(docx.oxml.ns.qn('r:id'), r_id)
+    new_run = docx.oxml.OxmlElement('w:r')
+    rPr = docx.oxml.OxmlElement('w:rPr')
+    if color:
+        c = docx.oxml.OxmlElement('w:color')
+        c.set(docx.oxml.ns.qn('w:val'), color)
+        rPr.append(c)
+    if underline:
+        u = docx.oxml.OxmlElement('w:u')
+        u.set(docx.oxml.ns.qn('w:val'), 'single')
+        rPr.append(u)
+    new_run.append(rPr)
+    new_run.text = text
+    hyperlink.append(new_run)
+    paragraph._p.append(hyperlink)
+
 # Header
 p_h1 = doc_w.add_paragraph()
 p_h1.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -300,9 +327,17 @@ r_sub.font.color.rgb = RGBColor(30, 64, 175)
 
 p_cnt = doc_w.add_paragraph()
 p_cnt.alignment = WD_ALIGN_PARAGRAPH.CENTER
-r_cnt = p_cnt.add_run("+91 9019282910   |   abdhipatel18@gmail.com   |   LinkedIn   |   GitHub: abdhipatel18   |   Chamarajanagar, India")
-r_cnt.font.size = Pt(8.5)
-r_cnt.font.name = "Arial"
+r_c1 = p_cnt.add_run("+91 9019282910   |   ")
+r_c1.font.size = Pt(8.5)
+add_hyperlink(p_cnt, EMAIL_URL, "abdhipatel18@gmail.com")
+r_c2 = p_cnt.add_run("   |   ")
+r_c2.font.size = Pt(8.5)
+add_hyperlink(p_cnt, LINKEDIN_URL, "LinkedIn")
+r_c3 = p_cnt.add_run("   |   ")
+r_c3.font.size = Pt(8.5)
+add_hyperlink(p_cnt, GITHUB_URL, "GitHub: abdhipatel18")
+r_c4 = p_cnt.add_run("   |   Chamarajanagar, India")
+r_c4.font.size = Pt(8.5)
 add_docx_hr(p_cnt)
 
 def add_docx_section(title):
@@ -431,16 +466,25 @@ for b in p2_bullets:
     br.font.size = Pt(8)
     br.font.name = "Arial"
 
-# Certificates
+# Certificates with docx hyperlinks
 add_docx_section("CERTIFICATES")
-for c in certs:
-    cp = doc_w.add_paragraph(style='List Bullet')
+
+certs_docx = [
+    ("• AI for Future Workforce – Intel : ", INTEL_CERT_URL, "Certificate"),
+    ("• AI Fluency: Framework and Foundations by Anthropic : ", ANTHROPIC_FLUENCY_CERT_URL, "Certificate"),
+    ("• Claude 101 by Anthropic : ", CLAUDE_101_CERT_URL, "Certificate"),
+    ("• Internship Completion Certificate — AI-Based Patient Risk Stratification and Scheduling Prioritization, MyClinicPulse LLC, Arizona, USA | August 2026 : ", INTERNSHIP_CERT_URL, "Certificate")
+]
+
+for prefix, url, link_text in certs_docx:
+    cp = doc_w.add_paragraph()
     cp.paragraph_format.space_before = Pt(0)
     cp.paragraph_format.space_after = Pt(1)
-    cr = cp.add_run(c.replace("• ", "").replace("<b>", "").replace("</b>", ""))
+    cr = cp.add_run(prefix)
     cr.font.size = Pt(8)
     cr.font.name = "Arial"
+    add_hyperlink(cp, url, link_text)
 
 doc_w.save(docx_path)
 shutil.copyfile(docx_path, downloads_docx_path)
-print("Saved DOCX to:", docx_path, "and", downloads_docx_path)
+print("Saved DOCX with clickable hyperlinks to:", docx_path, "and", downloads_docx_path)

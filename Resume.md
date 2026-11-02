@@ -10,7 +10,7 @@ Motivated **AI/ML Engineer** with a strong foundation in machine learning, data 
 ---
 
 ## 🛠 TECHNICAL SKILLS
-- **Languages:** Python, C, SQL, JavaScript, HTML5/CSS3
+- **Languages:** Python, SQL, JavaScript, HTML5/CSS3
 - **AI/ML & Data Science:** Scikit-learn, RAG (Retrieval-Augmented Generation), NLP, Feature Engineering, Predictive Modeling, Pandas, NumPy
 - **Frameworks & Tools:** FastAPI, Flask, Streamlit, Git, Pytest, OpenPyXL, Plotly
 - **Core Concepts & Databases:** Data Structures & Algorithms, DBMS, PostgreSQL, MySQL, Operating Systems, Computer Networks
@@ -23,7 +23,7 @@ Motivated **AI/ML Engineer** with a strong foundation in machine learning, data 
 **Sri Jayachamarajendra College of Engineering (SJCE), Mysuru**  
 *CGPA: 6.60 / 10.0* | *2023 – 2027*  
 
-### **Pre-University College (PCMC)**
+### **Pre-University College (PCMB)**
 **St Joseph PU College, Bengaluru**  
 *Percentage: 82%* | *2021 – 2023*  
 

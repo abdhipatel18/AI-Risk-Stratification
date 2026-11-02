@@ -151,7 +151,7 @@ story.append(HRFlowable(width="100%", thickness=0.8, color=colors.HexColor("#0f1
 story.append(Paragraph("TECHNICAL SKILLS", heading_style))
 skills_data = [
     [
-        Paragraph("<b>Languages:</b> Python, C, SQL, JavaScript, HTML5/CSS3", body_style),
+        Paragraph("<b>Languages:</b> Python, SQL, JavaScript, HTML5/CSS3", body_style),
         Paragraph("<b>Frameworks & Tools:</b> FastAPI, Flask, Streamlit, Git, Pytest, OpenPyXL", body_style)
     ],
     [
@@ -180,7 +180,7 @@ edu_data = [
         Paragraph("<b>2023 – 2027</b>", ParagraphStyle("Right1", parent=body_style, alignment=2))
     ],
     [
-        Paragraph("<b>Pre-University College (PCMC)</b> &nbsp;&nbsp;|&nbsp;&nbsp; <b>Percentage: 82%</b><br/>"
+        Paragraph("<b>Pre-University College (PCMB)</b> &nbsp;&nbsp;|&nbsp;&nbsp; <b>Percentage: 82%</b><br/>"
                   "<font color='#475569'>St Joseph PU College, Bengaluru</font>", body_style),
         Paragraph("<b>2021 – 2023</b>", ParagraphStyle("Right2", parent=body_style, alignment=2))
     ]
@@ -373,7 +373,7 @@ p_sk1.paragraph_format.space_after = Pt(1)
 r_sk1_b = p_sk1.add_run("• Languages: ")
 r_sk1_b.bold = True
 r_sk1_b.font.size = Pt(8.5)
-r_sk1 = p_sk1.add_run("Python, C, SQL, JavaScript, HTML5/CSS3   |   ")
+r_sk1 = p_sk1.add_run("Python, SQL, JavaScript, HTML5/CSS3   |   ")
 r_sk1.font.size = Pt(8.5)
 r_sk1_t = p_sk1.add_run("Frameworks & Tools: ")
 r_sk1_t.bold = True
@@ -410,7 +410,7 @@ r_d.font.size = Pt(8.5)
 p_ed2 = doc_w.add_paragraph()
 p_ed2.paragraph_format.space_before = Pt(1)
 p_ed2.paragraph_format.space_after = Pt(2)
-r2 = p_ed2.add_run("Pre-University College (St Joseph PU College, Bengaluru) — Percentage: 82%")
+r2 = p_ed2.add_run("Pre-University College (PCMB) (St Joseph PU College, Bengaluru) — Percentage: 82%")
 r2.bold = True
 r2.font.size = Pt(8.5)
 r2_d = p_ed2.add_run("\t\t2021 – 2023")

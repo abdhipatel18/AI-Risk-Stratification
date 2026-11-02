@@ -1,0 +1,72 @@
+[
+  {
+    "appointment_id": "APT-1001",
+    "patient_id": "PAT-0001",
+    "patient_name": "Emily Smith",
+    "provider": "Dr. Bob Jones",
+    "clinic": "Northside Community Clinic",
+    "appointment_date": "2026-11-03",
+    "appointment_time": "09:00 AM",
+    "risk_category": "High Risk",
+    "reason": "High Risk \u2014 2 overdue care gap(s), 1 abnormal lab result(s), 1 high-risk medication(s), high total care-gap weight (40.0), no appointment scheduled",
+    "care_gap_addressed": "HbA1c Control Poor (>9.0%)",
+    "status": "Confirmed",
+    "created_at": "2026-11-02T11:10:45.681066"
+  },
+  {
+    "appointment_id": "APT-1002",
+    "patient_id": "PAT-0002",
+    "patient_name": "Emily Williams",
+    "provider": "Dr. Carol Danvers",
+    "clinic": "Eastside Health",
+    "appointment_date": "2026-11-17",
+    "appointment_time": "09:00 AM",
+    "risk_category": "Medium Risk",
+    "reason": "Test booking",
+    "care_gap_addressed": "Routine Check",
+    "status": "Cancelled",
+    "created_at": "2026-11-02T11:12:29.917600"
+  },
+  {
+    "appointment_id": "APT-1003",
+    "patient_id": "PAT-0002",
+    "patient_name": "Emily Williams",
+    "provider": "Dr. Carol Danvers",
+    "clinic": "Eastside Health",
+    "appointment_date": "2026-11-17",
+    "appointment_time": "09:00 AM",
+    "risk_category": "Medium Risk",
+    "reason": "Test booking",
+    "care_gap_addressed": "Routine Check",
+    "status": "Cancelled",
+    "created_at": "2026-11-02T11:14:29.599134"
+  },
+  {
+    "appointment_id": "APT-1004",
+    "patient_id": "PAT-0001",
+    "patient_name": "Emily Smith",
+    "provider": "Dr. Bob Jones",
+    "clinic": "Northside Community Clinic",
+    "appointment_date": "2026-11-03",
+    "appointment_time": "09:45 AM",
+    "risk_category": "High Risk",
+    "reason": "High Risk \u2014 2 overdue care gap(s), 1 abnormal lab result(s), 1 high-risk medication(s), high total care-gap weight (40.0), no appointment scheduled",
+    "care_gap_addressed": "HbA1c Control Poor (>9.0%)",
+    "status": "Confirmed",
+    "created_at": "2026-11-02T11:16:39.335878"
+  },
+  {
+    "appointment_id": "APT-1005",
+    "patient_id": "PAT-0002",
+    "patient_name": "Emily Williams",
+    "provider": "Dr. Carol Danvers",
+    "clinic": "Eastside Health",
+    "appointment_date": "2026-11-17",
+    "appointment_time": "09:00 AM",
+    "risk_category": "Medium Risk",
+    "reason": "Test booking",
+    "care_gap_addressed": "Routine Check",
+    "status": "Cancelled",
+    "created_at": "2026-11-02T12:52:47.582535"
+  }
+]

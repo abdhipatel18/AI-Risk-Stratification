@@ -103,12 +103,17 @@ def run_pipeline(data_dir="data/input", config_dir="config", output_dir="data/ou
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="AI Patient Risk Stratification & Scheduling Engine")
     parser.add_argument("--regen-data", action="store_true", help="Force regenerate synthetic data")
-    parser.add_argument("--dashboard", action="store_true", help="Launch Streamlit dashboard after pipeline run")
+    parser.add_argument("--dashboard", action="store_true", help="Launch Streamlit dashboard with RAG Chatbot")
+    parser.add_argument("--api", action="store_true", help="Launch FastAPI REST API server")
     args = parser.parse_args()
 
     df_processed, df_quality_report, ml_summary = run_pipeline(force_regen_data=args.regen_data)
 
     if args.dashboard:
         import subprocess
-        logger.info("Launching Streamlit Dashboard...")
+        logger.info("Launching Streamlit Dashboard with RAG Chatbot...")
         subprocess.run(["streamlit", "run", "src/dashboard.py"])
+    elif args.api:
+        import uvicorn
+        logger.info("Launching FastAPI REST API server on http://localhost:8000...")
+        uvicorn.run("src.api.app:app", host="0.0.0.0", port=8000, reload=True)

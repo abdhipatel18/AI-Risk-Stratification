@@ -1,6 +1,6 @@
 patient_id,first_name,last_name,date_of_birth,age,gender,zip_code,primary_care_provider,clinic,last_visit_date,next_scheduled_appointment_date,insurance_or_payer
-PAT-0001,Emily,Smith,1942-01-25,84,Female,42098,Dr. Bob Jones,Northside Community Clinic,2026-05-31,,Humana
-PAT-0002,Emily,Williams,1974-07-06,52,Male,57052,Dr. Carol Danvers,Eastside Health,2026-06-30,,BlueCross BlueShield
+PAT-0001,Emily,Smith,1942-01-25,84,Female,42098,Dr. Bob Jones,Northside Community Clinic,2026-05-31,2026-11-03,Humana
+PAT-0002,Emily,Williams,1974-07-06,52,Male,57052,Dr. Carol Danvers,Eastside Health,2026-06-30,2026-11-17,BlueCross BlueShield
 PAT-0003,Michael,Martin,1951-08-19,75,Male,80010,Dr. Bob Jones,Northside Community Clinic,2026-01-09,2026-09-15,Aetna
 PAT-0004,Michael,Johnson,1998-10-05,27,Male,92240,Dr. Bob Jones,Downtown Medical,2026-06-20,,UnitedHealthcare
 PAT-0005,Heather,Hernandez,1964-10-05,61,Male,24662,Dr. Carol Danvers,Valley Care Center,2026-06-23,2026-09-11,Medicaid
@@ -99,5 +99,5 @@ PAT-0097,Joseph,Johnson,1993-12-24,32,Male,39012,Dr. Bob Jones,Northside Communi
 PAT-0098,Charles,Martinez,1947-11-04,78,Female,86609,Dr. Alice Smith,Metro Health Main,2025-08-17,,UnitedHealthcare
 PAT-0099,Sarah,Moore,1992-05-06,34,Female,22793,Dr. David Banner,Northside Community Clinic,2026-03-12,,Humana
 PAT-0100,Nicole,Miller,1963-09-12,62,Male,99220,Dr. David Banner,Eastside Health,2025-12-23,2026-09-29,BlueCross BlueShield
-,Ghost,User,1990-01-01,36,Male,00000,Dr. Unknown,Metro Health Main,2026-01-01,,Self
-PAT-0001,Emily,Smith,1942-01-25,84,Female,42098,Dr. Bob Jones,Northside Community Clinic,2026-05-31,,Humana
+,Ghost,User,1990-01-01,36,Male,0,Dr. Unknown,Metro Health Main,2026-01-01,,Self
+PAT-0001,Emily,Smith,1942-01-25,84,Female,42098,Dr. Bob Jones,Northside Community Clinic,2026-05-31,2026-11-03,Humana

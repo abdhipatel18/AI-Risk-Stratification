@@ -16,7 +16,7 @@ Healthcare teams receive patient data across demographics, active medications, l
 patient-risk-project/
 ├── data/
 │   ├── input/                     # Raw input CSV/Excel datasets
-│   └── output/                    # Exported CSVs & multi-tab Excel reports
+│   └── output/                    # Exported CSVs, multi-tab Excel reports, & scheduled appointments
 ├── config/
 │   ├── care_gap_weights.csv       # Reference care gap weights & clinical priorities
 │   └── risk_rules.yaml            # Configurable risk scoring parameters
@@ -29,9 +29,16 @@ patient-risk-project/
 │   ├── scheduling_engine.py       # Scheduling priority recommendation engine
 │   ├── ml_model.py                # Machine learning classifier & evaluation
 │   ├── report_generator.py        # Multi-tab openpyxl Excel generator
-│   ├── dashboard.py               # Interactive Streamlit web app
-│   └── main.py                    # Main pipeline orchestrator CLI
-├── tests/                         # Pytest unit testing suite
+│   ├── dashboard.py               # Streamlit Analytics + RAG Chatbot & Appointment UI
+│   ├── main.py                    # Main pipeline orchestrator CLI
+│   ├── rag/                       # RAG Chatbot & Appointment Engine
+│   │   ├── knowledge_base.py      # Clinical protocols & patient profile knowledge store
+│   │   ├── retriever.py           # Hybrid TF-IDF vector + metadata retriever
+│   │   ├── appointment_scheduler.py# Clinical risk-tier slot allocator & booking manager
+│   │   └── chatbot.py             # Multi-provider LLM chatbot (Gemini, OpenAI, Groq, Local RAG)
+│   └── api/                       # REST API Backend
+│       └── app.py                 # FastAPI endpoints (/api/chat, /api/slots, /api/appointments)
+├── tests/                         # Pytest unit testing suite (10 automated tests)
 ├── notebooks/                     # Exploratory analysis Jupyter notebook
 ├── synthetic_data_generator.py    # Synthetic patient data generator
 ├── DATA_DICTIONARY.md             # Complete data dictionary
@@ -55,12 +62,7 @@ Generates synthetic data (if missing), validates records, scores risk, trains ML
 python src/main.py
 ```
 
-To force-regenerate synthetic datasets:
-```bash
-python src/main.py --regen-data
-```
-
-### 3. Launch Interactive Streamlit Dashboard
+### 3. Launch Interactive Streamlit Dashboard & RAG Chatbot
 ```bash
 streamlit run src/dashboard.py
 ```
@@ -69,15 +71,43 @@ streamlit run src/dashboard.py
 python src/main.py --dashboard
 ```
 
-### 4. Run Unit Tests
+### 4. Launch FastAPI REST API Backend
+```bash
+uvicorn src.api.app:app --host 0.0.0.0 --port 8000 --reload
+```
+*Or via CLI flag:*
+```bash
+python src/main.py --api
+```
+- Interactive Swagger API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
+- Interactive ReDoc: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+
+### 5. Run Unit Tests
 ```bash
 pytest tests/
 ```
 
-### 5. Open Exploratory Notebook
-```bash
-jupyter notebook notebooks/exploratory_analysis.ipynb
-```
+---
+
+## 🤖 AI RAG Chatbot & Risk-Based Appointment Scheduling
+
+The system includes **CareNavigator AI**, a Retrieval-Augmented Generation (RAG) assistant designed to guide patients and healthcare coordinators.
+
+### Key Capabilities:
+1. **Clinical Risk Explanation**: Explains why a patient is categorized as **High Risk**, **Medium Risk**, or **Lower Risk** based on clinical risk scores, lab results, medications, and overdue care gaps.
+2. **Care Gap Guidance**: Details specific clinical protocols for open care gaps (e.g. HbA1c control >9.0%, uncontrolled blood pressure, diabetic retinopathy eye exam, mammograms).
+3. **Emergency Triage**: Automatically recognizes acute red-flag symptoms (chest pain, stroke signs, severe dyspnea) and directs patients to emergency care immediately.
+4. **Risk-Based Slot Allocation**: Generates valid date and time slots matching the patient's assigned PCP, clinic, and clinical urgency window:
+   - **High Risk**: Urgently scheduled within **1 to 14 days** (or within 1 month). Prioritizes morning fasting slots.
+   - **Medium Risk**: Scheduled within **15 to 45 days** (within 1-2 months).
+   - **Lower Risk**: Routine checkups within **45 to 90 days** (within 2-3 months).
+5. **Real-Time Booking & Dataset Synchronization**: Books appointments, creates confirmation records (`APT-XXXX`), and synchronizes back to `data/output/patient_risk_prioritization_results.csv` and `data/output/scheduled_appointments.json`.
+
+### Supported LLM Providers & API Setup:
+- **Built-in Local RAG (Default)**: Runs 100% locally and offline using TF-IDF semantic vector similarity. No external API key or credit card needed!
+- **Google Gemini**: Set `GEMINI_API_KEY` (Free API key at [Google AI Studio](https://aistudio.google.com/app/apikey)).
+- **OpenAI**: Set `OPENAI_API_KEY` ([OpenAI API Keys](https://platform.openai.com/api-keys)).
+- **Groq (Llama-3)**: Set `GROQ_API_KEY` (Free ultra-fast inference at [Groq Console](https://console.groq.com/keys)).
 
 ---
 
@@ -85,10 +115,4 @@ jupyter notebook notebooks/exploratory_analysis.ipynb
 
 1. **Master CSV Output**: [`data/output/patient_risk_prioritization_results.csv`](file:///c:/Users/Abdhi%20Patel/OneDrive/Desktop/abdhi/data/output/patient_risk_prioritization_results.csv)
 2. **Multi-Tab Excel Workbook**: [`data/output/patient_risk_prioritization_report.xlsx`](file:///c:/Users/Abdhi%20Patel/OneDrive/Desktop/abdhi/data/output/patient_risk_prioritization_report.xlsx)
-   - Executive Summary
-   - Patient Priority List
-   - One-Month Scheduling List
-   - Two-Month Scheduling List
-   - Three-Month Scheduling List
-   - Care-Gap Summary
-   - Data-Quality Report
+3. **Live Scheduled Appointments**: [`data/output/scheduled_appointments.json`](file:///c:/Users/Abdhi%20Patel/OneDrive/Desktop/abdhi/data/output/scheduled_appointments.json)
